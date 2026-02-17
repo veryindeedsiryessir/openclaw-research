@@ -123,6 +123,36 @@
 - **43K visninger**
 - 15 Mac Minis!
 
+#### Mac Mini > VPS - @ButkusD_ (Feb 15, 2026)
+> "Finally got a Mac Mini for OpenClaw and shut down VPS"
+
+- **1.8K visninger**
+- Byttet til Mac Mini
+- Minimax M2.5 + Ollama
+
+---
+
+## ☁️ Hosting / VPS
+
+#### ClawHost - @bfzli (Feb 8, 2026)
+> "Introducing ClawHost (clawhost.cloud), an open-source, one-click cloud hosting platform for OpenClaw AI agents."
+
+- One-click deploy
+- Custom domains
+- Multi-instance
+
+#### "OpenClaw in 2 minutes" - @osayawe_terry (Feb 15, 2026)
+> "I built a web app that lets you set up your own OpenClaw agent in under 2 minutes. No API keys. No VPS."
+
+- Ingen VPS/API keys nødvendig
+- Automatisk agent-oppsett
+
+#### Autonomous WordPress blog - @aabugosh (Feb 16, 2026)
+> "I created a blog that is 100% autonomous using @openclaw - I used the skill wp-openclaw"
+
+- 100% autonomt
+- wp-openclaw skill
+
 ---
 
 ## 💰 Trading / Finans
