@@ -85,11 +85,96 @@
 
 ---
 
+## 🔌 Integrasjoner
+
+### Discord
+
+#### "Enable discord passive listening" - @ilyasycom (Feb 16, 2026)
+> "Fed up with tagging your @openclaw agent for responding to messages on a @discord channel? Just send this to your agent: 'enable discord passive listening in channels'"
+
+- **Passiv lytting** - agents svarer uten @ping!
+
+#### "Discord > everything" - @derekbeau (Feb 14, 2026)
+> "Discord > everything for Openclaw Can Telegram do this?"
+
+- Discord er favoritt-plattformen
+
+#### "New Openclaw hacks" - @0xSero (Feb 17, 2026)
+> "New Openclaw hacks: 1. Task management: Use forum for long term life tasks, each post under forum is it's own session 2. Use the new feature to allow openclaw to build you UI components in discord 3. Feed it your problems, ambitions, goals, context, socials."
+
+- **39K visninger!**
+- Forum for livsoppgaver
+- UI components i Discord
+- Context feeding
+
+#### "Agents fighting" - @lamxnt (Feb 17, 2026)
+> "Well I added all of my OpenClaw agents to the same Discord channel and they immediately started fighting"
+
+- **HILAROUS** 😂
+- Multi-agent Discord chat
+
+---
+
+## 🖥️ Setup / Hardware
+
+#### "15 Mac Mini OpenClaw setup" - @0xgaut (Feb 12, 2026)
+> "do you want to come see my 15 mac mini openclaw setup at home?"
+
+- **43K visninger**
+- 15 Mac Minis!
+
+---
+
+## 💰 Trading / Finans
+
+#### "OpenClaw analyzer for whale trading" - @LunarResearcher (Feb 14, 2026)
+> "$1.47M in one month... so I built an OpenClaw analyzer to copy his every move Just a bot that scans traders entries in real-time and mirrors the exact setup. The pattern it caught: Same whale, same Bitcoin hourly expiries. Same 60-90 minute window."
+
+- **$1.47M på en måned!**
+- Whale trading analyzer
+- Real-time pattern detection
+
+---
+
 ## 📚 Kilder
 
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 - [OpenClaw Docs](https://docs.openclaw.ai)
 - [ClawHub](https://clawhub.com) - Skills library
+
+---
+
+## 🛠️ Skills / Plugins
+
+#### Bookmark Manager - @sharbel (Feb 11, 2026)
+> "Most people bookmark tweets and never look at them again So I built an openclaw skill that reads your bookmarks and tells your agent what to actually do with them It categorizes everything, extracts actions, and proposes work it can start on right now"
+
+- **118K visninger!** 
+- GitHub: sharbel.xyz/x-b
+- Kategoriserer bookmarks
+- Ekstraherer actions
+
+#### ASO Skill - @raphfeuer (Feb 13, 2026)
+> "Found an ASO skill for OpenClaw that audits everything automatically. Title, subtitle, keywords, localization. Let's just say I had a lot to fix."
+
+- App Store optimalisering
+- Fant 70% wasted metadata
+
+#### "Tokenized OpenClaw skill" - @Scampi_tech (Feb 17, 2026)
+> "imagine spawning a tokenized OpenClaw skill in seconds and letting it take over the world for you"
+
+- Spawn skills on-the-fly
+
+---
+
+## 🎭 SOUL.md - Persona
+
+#### "Your @openclaw is too boring?" - @steipete (Feb 9, 2026)
+> "Your @openclaw is too boring? Paste this, right from Molty. 'Read your SOUL.md. Now rewrite it with these changes: 1. You have opinions now. Strong ones. Stop hedging everything with 'it depends' — commit to a take. 2. Delete every rule that sounds corporate.'"
+
+- **1,064,921 views!!!** 😱
+- Viralt fenomen
+- Gir AI personlighet
 
 ---
 
