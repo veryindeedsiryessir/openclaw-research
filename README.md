@@ -167,6 +167,38 @@
 
 ---
 
+## 🤖 Automatisering
+
+#### TradingView → Python backtests - @KanikaBK (Feb 16, 2026)
+> "He spent 6 hours building an OpenClaw agent that automatically scrapes Trading View indicators and converts them to Python backtests. Zero manual coding after setup. Completely autonomous."
+
+- **83K visninger**
+- Algo trading automatisering
+
+#### TikTok Shop automatisering - @moltbot_builds (Feb 13, 2026)
+> "Find trending wellness products on TikTok Shop with 20%+ commission."
+
+- Produktforskning
+- Affiliate marketing
+
+---
+
+## 💼 Forretningsmodeller
+
+#### "4 ways to make money with OpenClaw" - @dashboardlim (Feb 15, 2026)
+> "1. Setup-as-a-Service 2. AI Assistant-in-a-Box 3. Proactive Monitoring & Alerts Subscription 4. Skills, Education & Micro-SaaS"
+
+- **81K visninger**
+- Forretningsmuligheter
+
+#### Ansettelse - @DulithHerath (Feb 17, 2026)
+> "If you've done anything with #Openclaw, n8n, etc please share - it will strengthen your interview. e-mail cv to: careers@kapruka.com"
+
+- Rekrutterer Automation Engineer
+- OpenClaw som kvalifikasjon
+
+---
+
 ## 🎭 SOUL.md - Persona
 
 #### "Your @openclaw is too boring?" - @steipete (Feb 9, 2026)
