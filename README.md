@@ -6,19 +6,21 @@
 
 ## ⭐ TOPP SKAPERE / INFLUENCERS
 
+### Matthew Berman (@MatthewBerman) - #1!
+- **"2.54 BILLION tokens on OpenClaw"** - 181K views
+- **"2.3 MILLION VIEWS!"** - STØRST!
+- YouTube: OpenClaw + GPT5.3 Codex + Opus 4.6 = "the trifecta"
+
 ### Alex Finn (@AlexFinn)
-- **"OpenClaw is the greatest application of AI we've ever seen"** - 343K views
-- **"210 timer siste måned - more than anyone on Earth"** - 441K views
-- YouTuber med massive OpenClaw-videoer
-- Fokus: use cases, setup, security
+- **"OpenClaw is the greatest application of AI"** - 343K views
+- **"210 timer siste måned"** - 441K views
 
 ### Peter Steinberger (@steipete)
 - **Skaperen av OpenClaw!**
 - SOUL.md viral (1M views)
 
 ### Paras Chopra (@paraschopra)
-- **"Why OpenClaw went viral"** - 430K views
-- Virality = number of attempts
+- **"Why OpenClaw went Viral"** - 430K views
 
 ---
 
