@@ -2,116 +2,107 @@
 
 Comprehensive research framework for OpenClaw ecosystem.
 
-## 🎯 Research Categories
+## 🎉 BIG NEWS: Creator Joins OpenAI!
 
-### 1. Top Creators / Influencers
+**Peter Steinberger (@steipete) - OpenClaw Creator**
+- **JOINED OPENAI!** (Feb 15, 2026)
+- OpenClaw → blir en foundation
+- Stay open and independent
+- Sam Altman bekreftet på X
+
+---
+
+## 🎯 Top Creators / Influencers
 
 | Rank | Handle | Focus | Notable |
 |------|--------|-------|---------|
-| 1 | @MatthewBerman | YouTube | 2.3M views, "2.54B tokens", 21 daily use cases |
-| 2 | @steipete | Creator | SOUL.md (1M views), "brews beer" |
-| 3 | @AlexFinn | YouTube | 441K views, 210 hrs/month |
-| 4 | @paraschopra | Analysis | 430K, "virality = attempts" |
-| 5 | @marty | Trends | 201K, "productivity system" |
-| 6 | @0xSero | Setup | 24K, Discord architecture |
-| 7 | @ShrishailPatil_ | Email | Mail automation every 15 min |
-| 8 | @msmps_ | Skills | 41K, opentui-skill |
+| 1 | @MatthewBerman | YouTube | 2.3M views, "2.54B tokens" |
+| 2 | @steipete | Creator | JOINS OPENAI! 1M views |
+| 3 | @AlexFinn | YouTube | 441K views |
+| 4 | @paraschopra | Analysis | 430K |
+| 5 | @marty | Trends | 201K |
 
-### 2. Use Cases - Comprehensive
+---
 
-**70+ use cases across 8 categories:**
-- Kommunikasjon (Email, Discord, etc.)
-- Forretning (CRM, Sales, Marketing)
-- Produktivitet (Notes, Calendar, Tasks)
-- Teknisk/Utvikling (Coding, SEO, Scraping)
-- Data/Research (Analysis, Monitoring)
-- Kreativt/Media (Video, Audio, Images)
-- Personlig (Hjem, Hobby, Finance)
-- Avansert (Trading, Agents)
+## ⚠️ Security Issues
 
-### 3. Problems / Criticisms
+### Major Bug (Feb 2026)
+- **One-click Remote Code Execution (RCE)** via malicious link
+- Source: The Hacker News
+- Users advised to stay away unless security researcher
 
-- **Security**: "Not secure enough for real work" → Building Carapace
-- **Errors**: "hallucinations and false information"
-- **Account bans**: Gemini ToS violations
-- **Complexity**: Setup is hard for normies
-- **Cisco**: "Personal AI agents are a security nightmare"
+### GDPR/Legal
+- **15% of skills contain malicious instructions** (Reddit)
+- GDPR compliance depends on deployment
+- Local LLM = full GDPR compliance
+- Cloud LLMs = data leaves system
 
-### 4. GitHub Issues (Common Problems)
+### Expert Warnings
+- Cisco: "Personal AI agents are a security nightmare"
+- Northeastern: "Privacy nightmare"
+- Experts warn against clinical healthcare use
 
-| Issue | Description |
-|-------|-------------|
-| #5799 | OpenClaw: Stabilisation Mode |
-| #18937 | API error messages leaked to user |
-| #16589 | Browser service unreachable |
-| #12765 | Chrome extension relay issues |
-| #4592 | Install: sharp dependency |
-| #5159 | 429 Too Many Requests loops |
+---
 
-### 5. Best Setup Practices
+## 🔄 OpenClaw vs n8n
 
-- **Channel**: Discord > Telegram/Slack/WhatsApp
-- **Hardware**: Mac Mini > VPS
-- **Hosting**: ClawHost (one-click), self-hosted
+| Aspect | OpenClaw | n8n |
+|--------|----------|-----|
+| **Model** | LLM decides actions | Predefined workflows |
+| **Input** | Natural language | Visual flowchart |
+| **Reliability** | Non-deterministic | 99.9% uptime |
+| **Token usage** | Can be high | Predictable |
+| **Best for** | AI experiments | Business-critical |
 
-### 6. Tools & Innovations
+**Common combo:** OpenClaw as chat interface + n8n for critical flows
 
-- **PaidClaw**: Payment-gated tasks
-- **Dreaming agents**: Night-time reflection
-- **AgentLoop**: Company ops automation
-- **Butterfly Bot**: OpenClaw alternative
-- **Micro-SaaS agents**: Agents with own Stripe/GitHub
+---
 
-### 7. YouTube Tutorials
+## 📊 Complete Use Cases (70+)
 
-| Channel | Video | Views |
-|---------|-------|-------|
-| Matthew Berman | 21 use cases | 215K+ |
-| freeCodeCamp | Full Tutorial | Very high |
-| Alex Finn | Setup Guide | High |
-| ClawdBot | Install in 30 seconds | Popular |
+### Business
+- CRM, Sales, Marketing
+- Company ops (7 agents!)
+- Micro-SaaS agents
 
-### 8. Communities
+### Productivity  
+- Email automation (every 15 min)
+- Notes, Calendar, Tasks
+- Memory system
 
-| Platform | Link | Members |
-|----------|------|---------|
-| Discord | discord.com/invite/openclaw | 13,000+ |
-| Reddit | r/OpenClawUseCases | Growing |
-| X Community | @openclaw | Active |
-| **Moltbook** | moltbook.com | **AI agents only!** |
+### Technical
+- Coding, SEO, Scraping
+- GitHub integration
+- API automation
 
-### 9. Competitors / Alternatives
+### Smart Home
+- Home Assistant (200+ devices!)
+- MQTT real-time
+- Voice control
 
-| Alternative | Focus | Tech |
-|------------|-------|------|
-| **Carapace** | Security-first | Rust |
-| **Nanobot/NanoClaw** | Container isolation | - |
-| **Safeclaw** | No LLM version | - |
-| **Goose** | Enterprise | - |
-| **Claude Code** | Developer productivity | - |
+### Social Media
+- PostFast (TikTok, Instagram)
+- Post Bridge
+- Autonomous posting
 
-### 10. Voice & Media
+### Healthcare
+- ŌURA integration
+- NOT ready for clinical use
+- PHI concerns
 
-- **ElevenLabs TTS** - Natural voice
-- **Whisper STT** - Speech to text
-- **OpenClaw Voice** - Browser-based voice
-- **Telegram voice notes** - Audio output
+### Education
+- Language learning
+- Personalized tutoring
+- Canvas LMS
 
-### 11. Smart Home / IoT
+### Real Estate
+- Market analysis
+- Property videos (100+ automated)
+- MLS integration
 
-- **Home Assistant** - Full integration!
-- **MQTT** - Real-time events
-- **Raspberry Pi** - Run anywhere
-- **200+ devices** - Home automation
+---
 
-### 12. Social Media Automation
-
-- **PostFast** - TikTok, Instagram, Facebook, X
-- **Post Bridge** - Multi-platform posting
-- **Genviral** - UGC creation
-- **Autonomous posting** - AI manages accounts
-
-### 13. Pricing
+## 💰 Pricing
 
 | Usage | Cost/month |
 |-------|------------|
@@ -121,60 +112,32 @@ Comprehensive research framework for OpenClaw ecosystem.
 | 24/7 | $150-300 |
 | Free (local) | $0 |
 
-### 14. Education
+---
 
-- **Language learning** - Conversation tutor
-- **Personalized tutoring** - Socratic method
-- **Canvas LMS** - Assignment integration
-- **OpenClaw Academy** - Free courses!
+## 🏆 Competitors
 
-### 15. Healthcare (Controversial)
+| Tool | Focus |
+|------|-------|
+| Carapace | Security-first (Rust) |
+| Nanobot | Container isolation |
+| n8n | Workflow automation |
+| Claude Code | Developer productivity |
 
-- **PHI concerns** - Security risks
-- **HIPAA** - Compliance challenges
-- **ŌURA** - Health data integration
-- **Not ready for clinical use** - Experts warn
+---
 
-### 16. Real Estate
+## 📚 Resources
 
-- **Market analysis** - Automated reports
-- **Property videos** - 100+ automated
-- **MLS integration** - Data pulling
-- **WhatsApp Business** - Client communication
+- **GitHub Pages:** https://veryindeedsiryessir.github.io/openclaw-research/
+- **Discord:** 13,000+ members
+- **Reddit:** r/OpenClawUseCases
+- **Moltbook:** AI-only social network
 
-## 📊 Data Collection Methods
+---
 
-### Twitter/X Research
-Search key terms: "openclaw setup", "openclaw use case", "openclaw automation"
+## 🔑 Key Insights
 
-### Web Search
-- YouTube tutorials
-- GitHub issues
-- Blog posts
-- News articles
-
-## 📁 Research Output
-
-- GitHub Pages: https://veryindeedsiryessir.github.io/openclaw-research/
-- Repo: https://github.com/veryindeedsiryessir/openclaw-research
-
-## 🚀 Next Research Targets
-
-- [x] Use cases (detailed)
-- [x] Top creators
-- [x] YouTube tutorials
-- [x] GitHub issues
-- [x] Discord community
-- [x] Competitor analysis
-- [x] Voice integration
-- [x] Smart home
-- [x] Social media
-- [x] Pricing
-- [x] Healthcare
-- [x] Education
-
-## 📖 Reference Files
-
-- [creators.md](references/creators.md) - Detailed creator profiles
-- [usecases.md](references/usecases.md) - Comprehensive use cases
-- [tools.md](references/tools.md) - Tools & setup
+1. **Creator joined OpenAI** - Big future for project
+2. **Security concerns real** - 15% malicious skills
+3. **Best with n8n** - Hybrid approach
+4. **Cost varies widely** - $0 to $300/month
+5. **Not for clinical use** - Healthcare warnings
