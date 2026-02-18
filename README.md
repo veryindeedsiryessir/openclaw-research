@@ -1,79 +1,109 @@
 # OpenClaw Research 🦞
 
-*Research om OpenClaw-økosystemet*
+*Den komplette bibelen for OpenClaw-økosystemet*
 
 ---
 
-## ⭐ TOPP SKAPERE / INFLUENCERS
+## 📊 Bruksområder (Use Cases)
 
-### Matthew Berman (@MatthewBerman) - #1!
-- **"2.54 BILLION tokens on OpenClaw"** - 181K views
-- **"2.3 MILLION VIEWS!"** - STØRST!
-- YouTube: OpenClaw + GPT5.3 Codex + Opus 4.6 = "the trifecta"
+OpenClaw kan brukes til **70+ ulike oppgaver** fordelt på 8 kategorier:
 
-### Alex Finn (@AlexFinn)
-- **"OpenClaw is the greatest application of AI"** - 343K views
-- **"210 timer siste måned"** - 441K views
+### 1. 💬 Kommunikasjon (8+)
+- Email-automasjon (hvert 15. minutt!)
+- Discord, Slack, Telegram, WhatsApp
+- Kalender-varsler
 
-### Peter Steinberger (@steipete)
-- **Skaperen av OpenClaw!**
-- SOUL.md viral (1M views)
+### 2. 💼 Forretning (10+)
+- Bedriftsoperasjoner (7 agenter!)
+- CRM-håndtering
+- Salg og markedsføring
+- Regnskap
 
-### Paras Chopra (@paraschopra)
-- **"Why OpenClaw went Viral"** - 430K views
+### 3. ⚡ Produktivitet (15+)
+- Personlig assistent
+- Minnesystem (AGENTS.md, MEMORY.md)
+- Notat-taking (Obsidian, Notion, Apple Notes)
+- Kalender og påminnelser
+- Task-håndtering
 
----
+### 4. 🛠️ Teknisk/Utvikling (12+)
+- SEO og content-analyse
+- Kodegenerering
+- GitHub-integrasjon
+- Web scraping
+- API-integrasjoner
 
-## 📊 Funn (Twitter)
+### 5. 📊 Data/Research (8+)
+- Annonse-analyse
+- Markedsanalyse
+- Kompetitor-overvåking
+- RSS/Blog-overvåking
 
-### Use Cases
+### 6. 🎨 Kreativt/Media (6+)
+- Video-frame-ekstraksjon
+- Spotify-kontroll
+- Tekst-til-tale
+- Bildegenerering
 
-#### "What's the real use case of OpenClaw?" - @Hesamation (Feb 9, 2025)
-> "okay so what's the real use case of OpenClaw? this is the question i see the most. there are >3000 skills available but very few ideas on what to use them for."
+### 7. 🏠 Personlig (10+)
+- Øl-brygging!
+- Hjemmeautomatisering
+- Personlig økonomi
+- Helse/trening
 
-- **310K visninger**
-
-#### "every tech guy working on their OpenClaw 'productivity' system" - @marty (Feb 2, 2026)
-> "every tech guy you know working on their @openclaw "productivity" system right now"
-
-- **201K visninger**
-
-#### "normie brewing beer with OpenClaw" - @steipete (Feb 10, 2026)
-> "Hi, I'm a normie, I have no idea about software and now my openclaw brews beer and runs half of our design company."
-
-- **107K visninger**
-- Skaperen selv!
-
----
-
-## ⚙️ Setup / Arkitektur
-
-#### "Discord is the best tool" - @0xSero (Feb 15, 2026)
-> "Not everything has to be so serious. Here's my Openclaw setup: #1 Discord is the best tool"
-
-- **24K visninger**
-- Channels = system prompts + cron
-- Threads = sessions
-
----
-
-## 🐛 Problemer / Kritikk
-
-#### "Not secure enough for real work" - @nicky_sap
-> "OpenClaw is dope, but it's not secure enough for real work. So I'm working on Carapace."
-
-#### "Account got Banned" - @OshieKefasu
-> "My Account got Banned after using #OpenClaw"
+### 8. 💰 Avansert (5+)
+- Trading ($1.47M!)
+- "Dreaming" agenter
+- Betaling-gated actions
+- Agents som kjører agenter
 
 ---
 
-## 📚 Kilder
+## 🏆 Topp Skapere
 
-- [OpenClaw GitHub](https://github.com/openclaw/openclaw)
-- [OpenClaw Docs](https://docs.openclaw.ai)
-- [ClawHub](https://clawhub.com)
-- YouTube: Alex Finn, Matthew Berman
+| Rank | Navn | Views | Mer |
+|------|------|-------|-----|
+| 1 | **Matthew Berman** | 2.3M | 21 use cases daglig |
+| 2 | **steipete** | 1M | Skaper, "brews beer" |
+| 3 | **Alex Finn** | 441K | 210 timer/måned |
+| 4 | **Paras Chopra** | 430K | "Virality = attempts" |
+| 5 | **marty** | 201K | "Productivity system" |
 
 ---
 
-*Sist oppdatert: 2026-02-17*
+## ⚙️ Beste Setup
+
+- **Discord** > Telegram/Slack/WhatsApp
+- **Mac Mini** > VPS
+- **ClawHost** for one-click deploy
+
+---
+
+## 🐛 Problemer
+
+- Sikkerhet (ikke for sensitivt arbeid)
+- Feil og hallusinasjoner
+- Account bans (Gemini ToS)
+- Komplekst for nybegynnere
+
+---
+
+## 📁 Dokumentasjon
+
+- [skills/openclaw-research/SKILL.md](skills/openclaw-research/SKILL.md) - Hovedskill
+- [skills/openclaw-research/references/usecases.md](skills/openclaw-research/references/usecases.md) - **Alle use cases (10K+ ord)**
+- [skills/openclaw-research/references/creators.md](skills/openclaw-research/references/creators.md) - Topp skapere
+- [skills/openclaw-research/references/tools.md](skills/openclaw-research/references/tools.md) - Tools & setup
+
+---
+
+## 🔗 Lenker
+
+- **GitHub Pages:** https://veryindeedsiryessir.github.io/openclaw-research/
+- **GitHub Repo:** https://github.com/veryindeedsiryessir/openclaw-research
+- **OpenClaw Docs:** https://docs.openclaw.ai
+- **ClawHub:** https://clawhub.com
+
+---
+
+*Sist oppdatert: 2026-02-18*
