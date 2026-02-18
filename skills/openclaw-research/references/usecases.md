@@ -19,6 +19,89 @@
 
 ---
 
+## 📊 Skills Ecosystem
+
+### ClawHub Statistics
+- **5,705 skills** on ClawHub (Feb 2026)
+- **3,002 skills** in awesome list
+- **16.3k stars** on awesome-openclaw-skills repo
+
+### Populære Skills
+| Skill | Creator | Beskrivelse |
+|-------|---------|--------------|
+| opentui-skill | @msmps_ | TUI superpowers, 41K views |
+| wp-openclaw | @aabugosh | WordPress automasjon |
+| cloudflare-skill | @dillon_mulroy | Cloudflare deploy |
+| vercel-skill | - | Vercel deploy |
+| memory-viewer | silicondawn | Web UI for memory |
+
+---
+
+## 🧠 Memory System
+
+### Filer
+```
+~/.openclaw/workspace/
+├── MEMORY.md           # Long-term, curated
+└── memory/
+    ├── 2026-02-18.md  # Daglige logs
+    └── ...
+```
+
+### Hvordan det fungerer
+1. **memory/YYYY-MM-DD.md** - Daglige logger, append-only
+2. **MEMORY.md** - Langtidsminne, kuratert
+3. **Semantic search** med decay over tid
+4. **Memory Viewer** - Web UI for browsing/redigering
+
+### Problemer
+- **Stateless mellom sessions** - starter fra null hver gang
+- **Context compaction** - kan miste minner
+- **Lossy summarization** - spesifikk info kan bli borte
+
+### Løsninger
+- **mem0.ai** - Persistent memory
+- **Cognee** - Memory integrasjon
+- **Layered memory** - bygge på eksisterende
+
+---
+
+## 🔌 Model Providers
+
+### Støttede
+- **Anthropic** - Claude Opus, Sonnet
+- **OpenAI** - GPT-5.2, GPT-5.3 Codex
+- **Google** - Gemini 2/3 Pro
+- **OpenRouter** - 50+ modeller
+- **Ollama** - Lokale modeller
+- **DeepSeek** - Reasoner
+- **AskCodi** - 50+ modeller
+- **Mixflow** - GPT-5.2, Claude Opus, Gemini
+
+### Multi-Model Routing
+```json
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-opus-4-5",
+        "fallbacks": [
+          "openai/gpt-5.2",
+          "deepseek/deepseek-reasoner",
+          "google/gemini-3-flash"
+        ]
+      }
+    }
+  }
+}
+```
+
+### Gratis alternativer
+- Claude Code OAuth → Gratis Opus
+- Gemini CLI OAuth → Gratis Gemini Pro
+
+---
+
 ## 🔴 KOMMUNIKASJON
 
 ### Email-automasjon
@@ -30,13 +113,6 @@
 > - Add reminders on my google calendar based on meeting mails 
 > - Text me a summary of anything urgent."
 
-**Detaljer:**
-- Sjekker mail hvert 15. minutt
-- Google Calendar-integrasjon
-- SMS-varsling for viktig mail
-
-**Frekvens:** 15 minutter (cron)
-
 ---
 
 ### Discord-kommunikasjon
@@ -47,23 +123,6 @@
 > - In channels, use Threads as sessions
 > - Setup statusline in Voice groups"
 
-**Detaljer:**
-- Kanals = system prompts + cron output
-- Threads = sessions
-- Voice groups = status
-
----
-
-### Telegram/Slack/WhatsApp
-**Source:** @thebuildguy
-
-> "Finally after trying many other chat channels for last 24 hours: telegram, slack, whatsapp. Discord feels the most natural with OpenClaw and best part it's free."
-
-**Detaljer:**
-- Discord = gratis + best
-- Telegram = god for mobil
-- Slack = enterprise-fokus
-
 ---
 
 ## 💼 FORRETNING
@@ -73,10 +132,6 @@
 
 > "Day 1 with OpenClaw + AgentLoop 🦞 Automating all of my company ops on OpenClaw with 7 agents!"
 
-**Detaljer:**
-- 7 agenter som kjører ulike oppgaver
-- Automatisering av bedriftsprosesser
-
 ---
 
 ### CRM-håndtering
@@ -84,34 +139,12 @@
 
 > "CRM" (fra 21 use cases-lista)
 
-**Detaljer:**
-- Kundeoppfølging
-- Pipeline management
-- Automatisert oppfølging
-
 ---
 
-### Salg og markedsføring
-**Detaljer:**
-- Automatisk follow-up
-- Lead scoring
-- Email-kampanjer
+### Micro-SaaS Agents
+**Source:** Reddit r/OpenClawUseCases
 
----
-
-### Regnskap/Økonomi
-**Detaljer:**
-- Fakturaer
-- Budsjettoppfølging
-- Rapportering
-
----
-
-### Prosjektledelse
-**Detaljer:**
-- Trello-integrasjon
-- Taskfordeling
-- Deadline-tracking
+> "Could give them a shared stripe/github/vercel account so they could build websites together and collect payments. Imagine the number of micro-saas tools they could put out there."
 
 ---
 
@@ -122,72 +155,12 @@
 
 > "every tech guy you know working on their @openclaw 'productivity' system right now"
 
-**Detaljer:**
-- "Productivity system" = buzzword
-- Alle bygger sitt eget system
-
 ---
 
 ### Minnesystem / Memory
 **Source:** @MatthewBerman
 
 > "Memory System" (fra 21 use cases-lista)
-
-**Detaljer:**
-- AGENTS.md - agent-instruksjoner
-- MEMORY.md - langtidsminne
-- memory/ - daglige filer
-
----
-
-### MD Files / Dokumentasjon
-**Source:** @MatthewBerman
-
-> "MD Files" (fra 21 use cases-lista)
-
-**Detaljer:**
-- Markdown-filer
-- Automatisk dokumentasjon
-
----
-
-### Notat-taking
-**Tilgjengelige skills:**
-- apple-notes
-- bear-notes
-- notion
-- obsidian
-
-**Detaljer:**
-- Apple Notes
-- Bear Notes
-- Notion
-- Obsidian
-
----
-
-### Kalender og påminnelser
-**Source:** @ShrishailPatil_
-
-> "Add reminders on my google calendar based on meeting mails"
-
-**Tilgjengelige skills:**
-- apple-reminders
-
-**Detaljer:**
-- Google Calendar-integrasjon
-- Automatiske påminnelser
-
----
-
-### Task-håndtering
-**Tilgjengelige skills:**
-- things-mac
-- trello
-
-**Detaljer:**
-- Things (Mac)
-- Trello
 
 ---
 
@@ -198,220 +171,12 @@
 
 > "Almost 2 hours of OpenClaw and analysis of all content then aligning internal links anchors properly to make it a proper topical hierarchy of anchors."
 
-**Detaljer:**
-- Intern lenke-analyse
-- Topikal hierarki
-- Content-analyse
-
----
-
-### Kodegenerering
-**Tilgjengelige skills:**
-- coding-agent
-
-**Detaljer:**
-- Automatisk kode
-- Code review
-- Refactoring
-
----
-
-### GitHub-integrasjon
-**Tilgjengelige skills:**
-- github
-
-**Detaljer:**
-- Automatiske commits
-- PR-håndtering
-- Issues
-
----
-
-### API-integrasjoner
-**Detaljer:**
-- REST API-kall
-- Webhook-håndtering
-- Automatiserte workflows
-
 ---
 
 ### Web scraping
 **Source:** @MatthewBerman
 
 > "Every night my OpenClaw is scraping and analyzing hundreds of ads. All of this is fed into @StealAds"
-
-**Detaljer:**
-- Nettsider
-- Konkurrent-analyse
-- Data-innsamling
-
----
-
-### Automatisering (generell)
-**Source:** @MarioMigMartins
-
-> "Automation for AI workflows"
-
-**Detaljer:**
-- repetitive oppgaver
-- Workflow-automatisering
-
----
-
-## 📊 DATA / RESEARCH
-
-### Annonse-analyse
-**Source:** @MatthewBerman
-
-> "Every night my OpenClaw is scraping and analyzing hundreds of ads. All of this is fed into @StealAds"
-
-**Detaljer:**
-- Nattlig scraping
-- Analyse av hundrevis av annonser
-- Data til StealAds
-
----
-
-### Markedsanalyse
-**Detaljer:**
-- Trender
-- Konkurrent-overvåking
-- Prisanalyse
-
----
-
-### Kompetitor-overvåking
-**Detaljer:**
-- Konkurrentaktivitet
-- Prisendringer
-- Produktlanseringer
-
----
-
-### Data-aggregering
-**Detaljer:**
-- Samle data fra ulike kilder
-- Konsolidering
-- Rapportering
-
----
-
-### RSS/Blog-overvåking
-**Tilgjengelige skills:**
-- blogwatcher
-
-**Detaljer:**
-- Overvåke blogs
-- Nye poster
-- Varsling
-
----
-
-## 🎨 KREATIVT / MEDIA
-
-### Video-frame-ekstraksjon
-**Tilgjengelige skills:**
-- video-frames
-
-**Detaljer:**
-- Trekke ut frames fra video
-- Thumbnail-generering
-
----
-
-### Musikk/Spotify
-**Tilgjengelige skills:**
-- spotify-player
-
-**Detaljer:**
-- Spille musikk
-- Playlist-håndtering
-
----
-
-### Tekst-til-tale (TTS)
-**Tilgjengelige skills:**
-- sag
-
-**Detaljer:**
-- Storytelling
-- Opplesning
-
----
-
-### Bildegenerering
-**Tilgjengelige skills:**
-- openai-image-gen
-
-**Detaljer:**
-- DALL-E integrasjon
-- Automatiske bilder
-
----
-
-### Tale-til-tekst
-**Tilgjengelige skills:**
-- openai-whisper
-- openai-whisper-api
-
-**Detaljer:**
-- Transkribering
-- Lyd-filer
-
----
-
-### PDF-redigering
-**Tilgjengelige skills:**
-- nano-pdf
-
-**Detaljer:**
-- Redigere PDFer
--endre tekst
-
----
-
-## 🏠 PERSONLIG
-
-### Øl-brygging
-**Source:** @steipete
-
-> "Hi, I'm a normie, I have no idea about software and now my openclaw brews beer and runs half of our design company."
-
-**Detaljer:**
-- Fysisk automatisering
-- Brygging-kontroll
-
----
-
-### Hjemmeautomatisering
-**Detaljer:**
-- openhue (Philips Hue)
-- Smarte enheter
-- IoT-kontroll
-
----
-
-### Personlig økonomi
-**Detaljer:**
-- Budsjett
-- Utgifter
-- Investeringer
-
----
-
-### Kalender-håndtering
-**Detaljer:**
-- Møter
-- Avtaler
-- Påminnelser
-
----
-
-### Helse/trening
-**Detaljer:**
-- Treningslogg
-- Kosthold
-- Søvn
 
 ---
 
@@ -422,156 +187,42 @@
 
 > "$1.47M trading with OpenClaw"
 
-**Detaljer:**
-- Markedsanalyse
-- Automatiske handler
-- Portefølje-styring
-
 ---
 
 ### "Dreaming" agenter
 **Source:** @byrdziakmedia
 
-> "Game changing upgrade to my OpenClaw I call it Dreaming.. Before my agent was 90% action and 0% common sense... A bull in a china shop basically. Now I force it to take time every night where I lock it out of certain action tools and change its prompt on a dreaming schedule."
-
-**Detaljer:**
-- Nattlig refleksjon
-- Common sense-trening
-- Unngå "bull in china shop"
+> "Game changing upgrade to my OpenClaw I call it Dreaming.. Before my agent was 90% action and 0% common sense..."
 
 ---
 
 ### Betaling-gated actions
 **Source:** @yudag (PaidClaw)
 
-> "Payment gated task execution for OpenClaw. Extension plugin → exposes openclaw_paid_action Skill → teaches agents the correct quote → pay → execute flow. Goal is simple: premium / expensive actions should NOT run unless payment is"
-
-**Detaljer:**
-- Betaling før handling
-- Forhindre dyre feil
-
----
-
-### Agents som kjører agenter
-**Source:** Diverse
-
-> "Inception level" - agents running agents
-
-**Detaljer:**
-- Multi-level agenter
-- Koordinering
-
----
-
-### 21 use cases daglig
-**Source:** @MatthewBerman
-
-> "I've spent 2.54 BILLION tokens perfecting OpenClaw. Here are 21 use cases I use daily:
-> - Intro
-> - What is OpenClaw?
-> - MD Files
-> - Memory System
-> - CRM
-> - [+ 16 flere]"
-
-**Detaljer:**
-1. Intro
-2. What is OpenClaw?
-3. MD Files
-4. Memory System
-5. CRM
-6-21. [ikke listet i tweeten]
-
----
-
-## 🔄 CRON / AUTOMATISKE WORKFLOWS
-
-### Cron-jobs
-**Eksempler fra funn:**
-- Sjekke mail hvert 15. minutt
-- Nattlig scraping av annonser
-- Daglige rapporter
-- Ukentlige oppsummeringer
-
-**Frekvenser:**
-- Hvert 15. minutt
-- Hver time
-- Daglig
-- Ukentlig
-- Månedlig
-
----
-
-## 📦 TILGJENGELIGE SKILLS (53 totalt)
-
-### Kommunikasjon
-- discord
-- slack
-- telegram (via plugin)
-
-### Produktivitet
-- notion
-- obsidian
-- apple-notes
-- bear-notes
-- apple-reminders
-- things-mac
-- trello
-
-### Utvikling
-- coding-agent
-- github
-- openai-image-gen
-- openai-whisper
-- openai-whisper-api
-
-### Media
-- spotify-player
-- video-frames
-- sag (TTS)
-
-### Data
-- blogwatcher
-- summarize
-
-### Verktøy
-- weather
-- healthcheck
-- tmux
+> "Payment gated task execution for OpenClaw"
 
 ---
 
 ## 🐛 PROBLEMER / KRITIKK
 
-### Feil og hallusinasjoner
-**Source:** @mikeysee
-
-> "It seems really really alpha, I just get so many errors, hallucinations and false information its not reliable."
-
----
+### GitHub Issues
+| Issue | Description |
+|-------|-------------|
+| #5799 | Stabilisation Mode |
+| #18937 | API errors leaked to user |
+| #16589 | Browser service unreachable |
+| #12765 | Chrome relay issues |
+| #4592 | Install/sharp dependency |
+| #5159 | Rate limit loops |
 
 ### Sikkerhet
-**Source:** @nicky_sap
+- **Cisco**: "Personal AI agents are a security nightmare"
+- **@nicky_sap**: Not secure for real work
+- **@RandyJRouse**: Same permissions = attack vectors
 
-> "OpenClaw is dope, but it's not secure enough for real work. So I'm working on Carapace."
-
-**Source:** @RandyJRouse
-
-> "OpenClaw's 'same permissions as the user' model creates new attack vectors"
-
----
-
-### Account bans
-**Source:** @OshieKefasu
-
-> "My Account got Banned after using #OpenClaw"
-
----
-
-### Complexity for normies
-**Source:** @steipete
-
-> "Hi, I'm a normie, I have no idea about software..."
+### Feil
+- **@mikeysee**: "hallucinations and false information"
+- Account bans (Gemini ToS)
 
 ---
 
@@ -589,4 +240,4 @@
 ---
 
 *Last updated: 2026-02-18*
-*Sources: Twitter/X research*
+*Sources: Twitter/X, GitHub, Reddit, Web Search*
