@@ -1,27 +1,24 @@
 # OpenClaw Research 🦞
 
-*Research om OpenClaw-økosystemet: muligheter, funksjoner, feil, forbedringer*
+*Research om OpenClaw-økosystemet*
 
 ---
 
-## 📋 Struktur
+## ⭐ TOPP SKAPERE / INFLUENCERS
 
-### Emner å utforske:
-1. **Use Cases** - Hva bruker folk OpenClaw til?
-2. **Funksjoner** - Hva er mulig?
-3. **Feil & Problemer** - Hva er vanskelig?
-4. **Forbedringer** - Hva mangler?
-5. **Kilder** - Nyttige ressurser
-6. **CLI'er** - Kommandolinjeverktøy
+### Alex Finn (@AlexFinn)
+- **"OpenClaw is the greatest application of AI we've ever seen"** - 343K views
+- **"210 timer siste måned - more than anyone on Earth"** - 441K views
+- YouTuber med massive OpenClaw-videoer
+- Fokus: use cases, setup, security
 
----
+### Peter Steinberger (@steipete)
+- **Skaperen av OpenClaw!**
+- SOUL.md viral (1M views)
 
-## 🚀 Kilder
-
-- Twitter/X - søk på #openclaw
-- GitHub - openclaw/openclaw
-- Discord (hvis tilgjengelig)
-- YouTube tutorials
+### Paras Chopra (@paraschopra)
+- **"Why OpenClaw went viral"** - 430K views
+- Virality = number of attempts
 
 ---
 
@@ -30,139 +27,19 @@
 ### Use Cases
 
 #### "What's the real use case of OpenClaw?" - @Hesamation (Feb 9, 2025)
-> "okay so what's the real use case of OpenClaw? this is the question i see the most. there are >3000 skills available but very few ideas on what to use them for. the ideas get lost in reddit and X. i made a repo for this bottleneck. open a PR and let others know about real use"
+> "okay so what's the real use case of OpenClaw? this is the question i see the most. there are >3000 skills available but very few ideas on what to use them for."
 
 - **310K visninger**
-- **105 replies, 209 reposts, 1821 likes**
-- [Repo: Hesamation/use-cases](https://github.com/Hesamation/use-cases)
-
-#### Visualisering av agenter - @YaniBu27
-> "she visualized all her agents so beautifully alongside a handover activity log"
-
-- Viser agents med activity log
-- Demo via @ramonable
-
-#### Moltbot - @brunomicrosaas (Feb 10, 2025)
-> "Esse é o melhor use case que eu já vi do openclaw!"
-
-- Brasilansk use case
-- 17 replies, 10 reposts, 133 likes
 
 ---
 
 ## 🐛 Problemer / Kritikk
 
-#### "Not secure enough for real work" - @nicky_sap (Feb 17, 2026)
-> "OpenClaw is dope, but it's not secure enough for real work. So I'm working on Carapace. Closed beta. DM for invite code."
+#### "Not secure enough for real work" - @nicky_sap
+> "OpenClaw is dope, but it's not secure enough for real work. So I'm working on Carapace."
 
-- Sikkerhet er en bekymring
-- Jobber med "Carapace" som alternativ
-
-#### "Account got Banned" - @OshieKefasu (Feb 12, 2026)
-> "My Account got Banned after using #OpenClaw to fix the RDP Issue on Linux Mini PC. [diagnostic] lane task error: Cloud Code Assist API error (403): Gemini has been disabled in this account for violation of ToS."
-
-- API-problemer (Gemini blokkert)
-- Kan føre til account suspension
-
----
-
-## 💡 Avanserte Use Cases
-
-#### Cron-jobs på VPS - @theayush (Feb 15, 2026)
-> "Okay, so I set up @openclaw on a $5 VPS for my company and dev team. Now every 6 hours a cron job runs on our API and other codebases. It: - Queries @BetterStackHQ for our last 6 hours of error logs - Analyzes them - Has local access to our codebase, so it runs grep searches"
-
-- **$5 VPS** (billig!)
-- **Cron hver 6. time**
-- Error log-analyse
-- Grep-søk i kode
-
-#### "Inception level 3" - @wonderwhy_er (Feb 17, 2026)
-> "Just had a wildest public transport ride... I asked @desktopcommandr to run @openclaw who I asked to Run Desktop Commander :D Inception level 3"
-
-- OpenClaw kjører Desktop Commander
-- Desktop Commander kjører OpenClaw
-- Agent-ception!
-
----
-
-## 🔌 Integrasjoner
-
-### Discord
-
-#### "Enable discord passive listening" - @ilyasycom (Feb 16, 2026)
-> "Fed up with tagging your @openclaw agent for responding to messages on a @discord channel? Just send this to your agent: 'enable discord passive listening in channels'"
-
-- **Passiv lytting** - agents svarer uten @ping!
-
-#### "Discord > everything" - @derekbeau (Feb 14, 2026)
-> "Discord > everything for Openclaw Can Telegram do this?"
-
-- Discord er favoritt-plattformen
-
-#### "New Openclaw hacks" - @0xSero (Feb 17, 2026)
-> "New Openclaw hacks: 1. Task management: Use forum for long term life tasks, each post under forum is it's own session 2. Use the new feature to allow openclaw to build you UI components in discord 3. Feed it your problems, ambitions, goals, context, socials."
-
-- **39K visninger!**
-- Forum for livsoppgaver
-- UI components i Discord
-- Context feeding
-
-#### "Agents fighting" - @lamxnt (Feb 17, 2026)
-> "Well I added all of my OpenClaw agents to the same Discord channel and they immediately started fighting"
-
-- **HILAROUS** 😂
-- Multi-agent Discord chat
-
----
-
-## 🖥️ Setup / Hardware
-
-#### "15 Mac Mini OpenClaw setup" - @0xgaut (Feb 12, 2026)
-> "do you want to come see my 15 mac mini openclaw setup at home?"
-
-- **43K visninger**
-- 15 Mac Minis!
-
-#### Mac Mini > VPS - @ButkusD_ (Feb 15, 2026)
-> "Finally got a Mac Mini for OpenClaw and shut down VPS"
-
-- **1.8K visninger**
-- Byttet til Mac Mini
-- Minimax M2.5 + Ollama
-
----
-
-## ☁️ Hosting / VPS
-
-#### ClawHost - @bfzli (Feb 8, 2026)
-> "Introducing ClawHost (clawhost.cloud), an open-source, one-click cloud hosting platform for OpenClaw AI agents."
-
-- One-click deploy
-- Custom domains
-- Multi-instance
-
-#### "OpenClaw in 2 minutes" - @osayawe_terry (Feb 15, 2026)
-> "I built a web app that lets you set up your own OpenClaw agent in under 2 minutes. No API keys. No VPS."
-
-- Ingen VPS/API keys nødvendig
-- Automatisk agent-oppsett
-
-#### Autonomous WordPress blog - @aabugosh (Feb 16, 2026)
-> "I created a blog that is 100% autonomous using @openclaw - I used the skill wp-openclaw"
-
-- 100% autonomt
-- wp-openclaw skill
-
----
-
-## 💰 Trading / Finans
-
-#### "OpenClaw analyzer for whale trading" - @LunarResearcher (Feb 14, 2026)
-> "$1.47M in one month... so I built an OpenClaw analyzer to copy his every move Just a bot that scans traders entries in real-time and mirrors the exact setup. The pattern it caught: Same whale, same Bitcoin hourly expiries. Same 60-90 minute window."
-
-- **$1.47M på en måned!**
-- Whale trading analyzer
-- Real-time pattern detection
+#### "Account got Banned" - @OshieKefasu
+> "My Account got Banned after using #OpenClaw"
 
 ---
 
@@ -170,79 +47,8 @@
 
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 - [OpenClaw Docs](https://docs.openclaw.ai)
-- [ClawHub](https://clawhub.com) - Skills library
-
----
-
-## 🛠️ Skills / Plugins
-
-#### Bookmark Manager - @sharbel (Feb 11, 2026)
-> "Most people bookmark tweets and never look at them again So I built an openclaw skill that reads your bookmarks and tells your agent what to actually do with them It categorizes everything, extracts actions, and proposes work it can start on right now"
-
-- **118K visninger!** 
-- GitHub: sharbel.xyz/x-b
-- Kategoriserer bookmarks
-- Ekstraherer actions
-
-#### ASO Skill - @raphfeuer (Feb 13, 2026)
-> "Found an ASO skill for OpenClaw that audits everything automatically. Title, subtitle, keywords, localization. Let's just say I had a lot to fix."
-
-- App Store optimalisering
-- Fant 70% wasted metadata
-
-#### "Tokenized OpenClaw skill" - @Scampi_tech (Feb 17, 2026)
-> "imagine spawning a tokenized OpenClaw skill in seconds and letting it take over the world for you"
-
-- Spawn skills on-the-fly
-
----
-
-## 🤖 Automatisering
-
-#### TradingView → Python backtests - @KanikaBK (Feb 16, 2026)
-> "He spent 6 hours building an OpenClaw agent that automatically scrapes Trading View indicators and converts them to Python backtests. Zero manual coding after setup. Completely autonomous."
-
-- **83K visninger**
-- Algo trading automatisering
-
-#### TikTok Shop automatisering - @moltbot_builds (Feb 13, 2026)
-> "Find trending wellness products on TikTok Shop with 20%+ commission."
-
-- Produktforskning
-- Affiliate marketing
-
----
-
-## 💼 Forretningsmodeller
-
-#### "4 ways to make money with OpenClaw" - @dashboardlim (Feb 15, 2026)
-> "1. Setup-as-a-Service 2. AI Assistant-in-a-Box 3. Proactive Monitoring & Alerts Subscription 4. Skills, Education & Micro-SaaS"
-
-- **81K visninger**
-- Forretningsmuligheter
-
-#### Ansettelse - @DulithHerath (Feb 17, 2026)
-> "If you've done anything with #Openclaw, n8n, etc please share - it will strengthen your interview. e-mail cv to: careers@kapruka.com"
-
-- Rekrutterer Automation Engineer
-- OpenClaw som kvalifikasjon
-
----
-
-## 🎭 SOUL.md - Persona
-
-#### "Your @openclaw is too boring?" - @steipete (Feb 9, 2026)
-> "Your @openclaw is too boring? Paste this, right from Molty. 'Read your SOUL.md. Now rewrite it with these changes: 1. You have opinions now. Strong ones. Stop hedging everything with 'it depends' — commit to a take. 2. Delete every rule that sounds corporate.'"
-
-- **1,064,921 views!!!** 😱
-- Viralt fenomen
-- Gir AI personlighet
-
----
-
-## 🔧 CLI'er og verktøy
-
-*(Å utforske)*
+- [ClawHub](https://clawhub.com)
+- YouTube: Alex Finn, Matthew Berman
 
 ---
 
