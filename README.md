@@ -33,6 +33,28 @@
 
 - **310K visninger**
 
+#### "every tech guy working on their OpenClaw 'productivity' system" - @marty (Feb 2, 2026)
+> "every tech guy you know working on their @openclaw "productivity" system right now"
+
+- **201K visninger**
+
+#### "normie brewing beer with OpenClaw" - @steipete (Feb 10, 2026)
+> "Hi, I'm a normie, I have no idea about software and now my openclaw brews beer and runs half of our design company."
+
+- **107K visninger**
+- Skaperen selv!
+
+---
+
+## ⚙️ Setup / Arkitektur
+
+#### "Discord is the best tool" - @0xSero (Feb 15, 2026)
+> "Not everything has to be so serious. Here's my Openclaw setup: #1 Discord is the best tool"
+
+- **24K visninger**
+- Channels = system prompts + cron
+- Threads = sessions
+
 ---
 
 ## 🐛 Problemer / Kritikk
