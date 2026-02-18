@@ -1,8 +1,3 @@
----
-name: openclaw-research
-description: Research OpenClaw ecosystem: top creators, use cases, problems, improvements, skills, tools, and resources. Use when studying OpenClaw ecosystem, finding best practices, or building OpenClaw-related projects.
----
-
 # OpenClaw Research Skill
 
 Comprehensive research framework for OpenClaw ecosystem.
@@ -13,25 +8,32 @@ Comprehensive research framework for OpenClaw ecosystem.
 
 | Rank | Handle | Focus | Notable |
 |------|--------|-------|---------|
-| 1 | @MatthewBerman | YouTube | 2.3M views, "2.54B tokens" |
+| 1 | @MatthewBerman | YouTube | 2.3M views, "2.54B tokens", 21 daily use cases |
 | 2 | @steipete | Creator | SOUL.md (1M views), "brews beer" |
 | 3 | @AlexFinn | YouTube | 441K views, 210 hrs/month |
 | 4 | @paraschopra | Analysis | 430K, "virality = attempts" |
 | 5 | @marty | Trends | 201K, "productivity system" |
+| 6 | @0xSero | Setup | 24K, Discord architecture |
+| 7 | @ShrishailPatil_ | Email | Mail automation every 15 min |
 
-### 2. Use Cases (High Engagement)
+### 2. Use Cases - Comprehensive
 
-| Use Case | Source | Engagement |
-|----------|--------|------------|
-| "Productivity system" | @marty | 201K |
-| "Normie brewing beer" | @steipete | 107K |
-| SEO/Content | @gaganghotra_ | High |
-| Trading ($1.47M) | Various | High |
-| Company ops (7 agents) | @troygentic | Growing |
+Se detaljert oversikt i: [usecases.md](references/usecases.md)
+
+**Kategorier:**
+- Kommunikasjon (8+)
+- Forretning (10+)
+- Produktivitet (15+)
+- Teknisk/Utvikling (12+)
+- Data/Research (8+)
+- Kreativt/Media (6+)
+- Personlig (10+)
+- Avansert (5+)
 
 ### 3. Problems / Criticisms
 
 - **Security**: "Not secure enough for real work" (@nicky_sap) → Building Carapace
+- **Errors**: "hallucinations and false information" (@mikeysee)
 - **Account bans**: Gemini ToS violations (@OshieKefasu)
 - **Complexity**: Setup is hard for normies
 
@@ -43,14 +45,16 @@ Comprehensive research framework for OpenClaw ecosystem.
 
 ### 5. Tools & Innovations
 
-- **PaidClaw**: Payment-gated tasks
-- **Dreaming agents**: Night-time reflection
-- **AgentLoop**: Company ops automation
+- **PaidClaw**: Payment-gated tasks (@yudag)
+- **Dreaming agents**: Night-time reflection (@byrdziakmedia)
+- **AgentLoop**: Company ops automation (@troygentic)
+- **Butterfly Bot**: OpenClaw alternative (local-first)
+- **Scrap.so**: AI web scraping (relatert)
 
 ## 📊 Data Collection Methods
 
 ### Twitter/X Research
-1. Search key terms: "openclaw setup", "openclaw best", "openclaw use case"
+1. Search key terms: "openclaw setup", "openclaw use case", "openclaw automation"
 2. Analyze engagement (views, likes, reposts)
 3. Note verified creators
 4. Track trends
@@ -76,14 +80,15 @@ Save findings to:
 
 ## 🚀 Next Research Targets
 
-- OpenClaw CLI tools
-- GitHub issues
-- YouTube tutorials (not just Twitter)
-- Discord community
-- Competitor analysis (Carapace)
+- [x] Use cases (detailed)
+- [x] Top creators
+- [ ] YouTube tutorials (Matthew Berman, Alex Finn)
+- [ ] GitHub issues
+- [ ] Discord community
+- [ ] Competitor analysis (Carapace, Butterfly Bot)
 
 ## 📖 Reference Files
 
 - [creators.md](references/creators.md) - Detailed creator profiles
-- [usecases.md](references/usecases.md) - All use cases
+- [usecases.md](references/usecases.md) - **Comprehensive use cases (10K+ words)**
 - [tools.md](references/tools.md) - Tools & setup
