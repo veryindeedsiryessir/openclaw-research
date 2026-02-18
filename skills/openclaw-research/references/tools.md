@@ -2,8 +2,9 @@
 
 ## Communication Channels
 
-### Discord (Best)
+### Discord (Best) - 13,000+ members
 - Free
+- **Official server**: discord.com/invite/openclaw
 - Channels for system prompts & cron
 - Threads for sessions
 - Voice groups for status
@@ -63,14 +64,68 @@
 - summarize
 - healthcheck
 
+## Popular Skills from Twitter
+
+| Skill | Creator | Engagement |
+|-------|---------|------------|
+| opentui-skill | @msmps_ | 41K |
+| wp-openclaw | @aabugosh | God |
+| cloudflare-skill | @dillon_mulroy | Populær |
+
+## Communities
+
+### Discord
+- **13,000+ medlemmer**
+- discord.com/invite/openclaw
+
+### Reddit
+- **r/OpenClawUseCases**
+- Voksende community
+- Micro-SaaS agent-experiment
+
+### X (Twitter)
+- #openclaw
+- @openclaw community
+
 ## Security
 
 ### Concerns
 - Not secure for sensitive work (@nicky_sap)
 - API keys exposed in configs
 - Remote access risks
+- Cisco: "Personal AI agents are a security nightmare"
 
 ### Solutions (Emerging)
-- Carapace (secure alternative)
+- **Carapace** (Rust, security-first)
+- **Nanobot/NanoClaw** (container isolation)
+- **Safeclaw** (no LLM version)
 - PaidClaw (payment gating)
 - VPN-only access
+
+## GitHub Issues (Common)
+
+| Issue | Description |
+|-------|-------------|
+| #5799 | Stabilisation Mode |
+| #18937 | API errors leaked |
+| #16589 | Browser unreachable |
+| #12765 | Chrome relay issues |
+| #4592 | Install/sharp dependency |
+| #5159 | Rate limit loops |
+
+## YouTube Tutorials
+
+| Channel | Focus |
+|---------|-------|
+| Matthew Berman | 21 use cases |
+| Alex Finn | Setup & security |
+| freeCodeCamp | Full tutorial |
+| ClawdBot | Quick install |
+
+## Official Resources
+
+- **Docs**: docs.openclaw.ai
+- **GitHub**: github.com/openclaw/openclaw
+- **ClawHub**: clawhub.com
+- **Learn**: learnopenclaw.com
+- **Website**: openclaw.ai
