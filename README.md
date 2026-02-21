@@ -99,12 +99,13 @@ OpenClaw kan brukes til **70+ ulike oppgaver** fordelt på 8 kategorier:
 
 ## 🧭 Kartlegging Loop (v1)
 
-Vi har startet en konkret loop for områdekartlegging (f.eks. Kolbotn):
+Vi har startet en konkret loop for **praktisk OpenClaw-kartlegging** (ikke bare teori):
 
 - `kartlegging-loop/README.md` – rammeverk + drift
-- `kartlegging-loop/areas/kolbotn.json` – områdeprofil
 - `kartlegging-loop/scripts/` – diff + rapport scripts
 - `kartlegging-loop/reports/latest.md` – eksempelrapport
+- `prioriteringsmatrise.md` – hvordan vi prioriterer features/prosesser
+- `backlog-v1.md` – konkret backlog med score + sprintforslag
 
 ---
 
