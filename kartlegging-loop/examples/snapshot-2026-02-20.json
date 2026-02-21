@@ -1,0 +1,28 @@
+[
+  {
+    "id": "bekkeliveien-3-75-270",
+    "source": "finn",
+    "url": "https://example.com/bekkeliveien-3",
+    "title": "Bekkeliveien 3",
+    "address": "Bekkeliveien 3, Kolbotn",
+    "area_m2_min": 75,
+    "area_m2_max": 270,
+    "types": ["kontor"],
+    "price_nok_per_m2": null,
+    "status": "available",
+    "captured_at": "2026-02-20T08:00:00+01:00"
+  },
+  {
+    "id": "kolbotnveien-36-145",
+    "source": "nettec",
+    "url": "https://example.com/kolbotnveien-36",
+    "title": "Kolbotnveien 36",
+    "address": "Kolbotnveien 36, Kolbotn",
+    "area_m2_min": 145,
+    "area_m2_max": 145,
+    "types": ["kontor"],
+    "price_nok_per_m2": null,
+    "status": "available",
+    "captured_at": "2026-02-20T08:00:00+01:00"
+  }
+]

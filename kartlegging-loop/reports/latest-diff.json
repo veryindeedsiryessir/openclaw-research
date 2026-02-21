@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-02-21T01:45:20.329Z",
+  "old_snapshot": "kartlegging-loop/examples/snapshot-2026-02-20.json",
+  "new_snapshot": "kartlegging-loop/examples/snapshot-2026-02-21.json",
+  "summary": {
+    "old_count": 2,
+    "new_count": 2,
+    "added_count": 1,
+    "changed_count": 1,
+    "removed_count": 1
+  },
+  "added": [
+    {
+      "id": "flobonnveien-5-48",
+      "source": "finn",
+      "url": "https://example.com/floisbonnveien-5",
+      "title": "Fløisbonnveien 5",
+      "address": "Fløisbonnveien 5, Sofiemyr",
+      "area_m2_min": 12,
+      "area_m2_max": 48,
+      "types": [
+        "kontor"
+      ],
+      "price_nok_per_m2": null,
+      "status": "available",
+      "captured_at": "2026-02-21T08:00:00+01:00"
+    }
+  ],
+  "changed": [
+    {
+      "id": "bekkeliveien-3-75-270",
+      "title": "Bekkeliveien 3",
+      "url": "https://example.com/bekkeliveien-3",
+      "changes": {
+        "area_m2_min": {
+          "old": 75,
+          "new": 90
+        }
+      }
+    }
+  ],
+  "removed": [
+    {
+      "id": "kolbotnveien-36-145",
+      "source": "nettec",
+      "url": "https://example.com/kolbotnveien-36",
+      "title": "Kolbotnveien 36",
+      "address": "Kolbotnveien 36, Kolbotn",
+      "area_m2_min": 145,
+      "area_m2_max": 145,
+      "types": [
+        "kontor"
+      ],
+      "price_nok_per_m2": null,
+      "status": "available",
+      "captured_at": "2026-02-20T08:00:00+01:00"
+    }
+  ]
+}

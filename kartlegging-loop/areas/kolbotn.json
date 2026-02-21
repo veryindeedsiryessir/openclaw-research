@@ -1,0 +1,31 @@
+{
+  "area": "Kolbotn",
+  "municipality": "Nordre Follo",
+  "focus": "kontor",
+  "priority_rules": {
+    "target_area_m2_min": 80,
+    "target_area_m2_max": 350,
+    "prefer_near_transport": true,
+    "prefer_status": ["available"]
+  },
+  "tracked_sources": [
+    {
+      "name": "FINN Næring",
+      "url": "https://www.finn.no/realestate/businessrent/search.html?location=1.20003.22104"
+    },
+    {
+      "name": "Nettec",
+      "url": "https://www.nettec.no/kontorlokale/"
+    }
+  ],
+  "change_triggers": {
+    "new_listing": true,
+    "status_change": true,
+    "area_change_m2": 20,
+    "price_change_percent": 5
+  },
+  "reporting": {
+    "daily_digest": true,
+    "weekly_summary": true
+  }
+}
