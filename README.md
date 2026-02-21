@@ -122,6 +122,33 @@ Nå inneholder repoet en browsebar, OpenClaw-inspirert nettside med meny og unde
 - `sources.html` – signaler/kilder
 - `data/library.json` – JSON-basert bibliotekdatabase
 
+## 🛠️ How to maintain / update the library
+
+### Data source of truth
+- `data/library.json` is the canonical library database.
+- Schema fields per entry:
+  - `id`, `title`, `category`, `summary`, `url`, `source`, `type`, `difficulty`, `impact`, `tags`, `lastUpdated`
+- Allowed categories:
+  - `Use Cases`, `CLI`, `Tools`, `Skills`, `Process`, `Creators`, `Security`, `Architecture`
+
+### Add/update entries (recommended flow)
+1. Edit `data/library.json`
+2. Run validation:
+   - `node scripts/validate-library.mjs`
+3. Build summary report:
+   - `node scripts/build-library-summary.mjs`
+4. Review output:
+   - `reports/library-summary.md`
+5. Quick static sanity:
+   - Open `library.html` locally (or GitHub Pages preview) and test search/filters/sort
+
+### Quality rubric (keep signal high)
+- Prefer official docs, maintainer repos, reputable technical references
+- Keep summaries practical and specific (avoid hype language)
+- Keep tags short and searchable
+- Update `lastUpdated` on every content edit
+- Do not remove useful legacy entries unless broken/duplicate
+
 ## 🔗 Lenker
 
 - **GitHub Pages:** https://veryindeedsiryessir.github.io/openclaw-research/
@@ -131,4 +158,4 @@ Nå inneholder repoet en browsebar, OpenClaw-inspirert nettside med meny og unde
 
 ---
 
-*Sist oppdatert: 2026-02-20*
+*Sist oppdatert: 2026-02-21*

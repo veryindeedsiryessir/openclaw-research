@@ -46,8 +46,17 @@
           <input id="searchInput" class="input" type="search" placeholder="Search title, summary, tags, source..." />
           <select id="categoryFilter" class="select"><option value="all">All categories</option></select>
           <select id="typeFilter" class="select"><option value="all">All types</option></select>
+          <select id="sortFilter" class="select">
+            <option value="updated-desc">Newest first</option>
+            <option value="updated-asc">Oldest first</option>
+            <option value="impact-desc">Highest impact first</option>
+            <option value="title-asc">Title A→Z</option>
+          </select>
+          <button id="clearFiltersBtn" class="btn" type="button">Clear</button>
         </div>
 
+        <div id="quickCategories" class="quick-cats"></div>
+        <p id="resultHint" class="result-hint">Showing 0 entries</p>
         <div id="entryList" class="entry-list"></div>
       </section>
     </div>
