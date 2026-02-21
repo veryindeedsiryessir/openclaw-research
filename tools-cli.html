@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tools & CLI — OpenClaw Library</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <aside class="claw-rail" aria-hidden="true"><span class="emoji">🦞</span><span class="label">Tools + CLI</span></aside>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand"><span class="brand-dot"></span> OpenClaw Library // Tools & CLI</div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="library.html">Dashboard</a>
+        <a href="use-cases.html">Use Cases</a>
+        <a href="tools-cli.html">Tools & CLI</a>
+        <a href="skills.html">Skills</a>
+        <a href="playbooks.html">Playbooks</a>
+        <a href="sources.html">Signals</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="hero">
+        <span class="kicker"><span class="brand-dot"></span> Practical operator sheet</span>
+        <h1><span class="gradient">Tools & CLI</span></h1>
+        <p class="lead">What each part does, when to use it, and where it creates real leverage.</p>
+      </section>
+
+      <section class="grid two">
+        <article class="card">
+          <div class="tiny">Core command habits</div>
+          <h3>Daily CLI flow</h3>
+          <div class="entry-list">
+            <div class="entry"><strong>/status</strong><p>Check model, reasoning level, usage and runtime status before heavy work.</p></div>
+            <div class="entry"><strong>/reasoning</strong><p>Toggle deeper thinking when complexity increases.</p></div>
+            <div class="entry"><strong>openclaw status</strong><p>Host-level health check when diagnosing platform issues.</p></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="tiny">Automation primitives</div>
+          <h3>Loop builders</h3>
+          <div class="entry-list">
+            <div class="entry"><strong>cron</strong><p>Scheduled reminders, recurring scans, isolated agent jobs.</p></div>
+            <div class="entry"><strong>sessions_spawn</strong><p>Parallel deep work in background agents with push completion.</p></div>
+            <div class="entry"><strong>message</strong><p>Proactive updates to Telegram/other channels without manual copy-paste.</p></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="grid three" style="margin-top:.85rem;">
+        <article class="card">
+          <div class="tiny">Data + Research</div>
+          <h3>web_search / web_fetch</h3>
+          <p>Fast intelligence gathering + readable extraction. Good for trend snapshots and source collection.</p>
+          <div class="tags"><span class="tag">signal scan</span><span class="tag">news</span></div>
+        </article>
+        <article class="card">
+          <div class="tiny">Execution</div>
+          <h3>exec / process</h3>
+          <p>Run shell workflows and monitor long jobs safely with session-based control.</p>
+          <div class="tags"><span class="tag">automation</span><span class="tag">ops</span></div>
+        </article>
+        <article class="card">
+          <div class="tiny">Web UI</div>
+          <h3>browser</h3>
+          <p>Interact with websites through snapshot+actions. Useful for controlled UI tasks and demos.</p>
+          <div class="tags"><span class="tag">ui automation</span><span class="tag">relay</span></div>
+        </article>
+      </section>
+
+      <section class="panel" style="margin-top:.85rem;">
+        <div class="tiny">CLI adoption rule</div>
+        <h3>Start with stable commands, then scale complexity.</h3>
+        <p>
+          Build confidence with status, cron and messaging first. Add browser automation and sub-agent orchestration
+          only when your baseline monitoring and rollback routines are already in place.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer>OpenClaw Library • Last build: <span data-build-date></span> • Tools and commands that ship.</footer>
+  <script src="./assets/app.js"></script>
+</body>
+</html>

@@ -109,6 +109,19 @@ Vi har startet en konkret loop for **praktisk OpenClaw-kartlegging** (ikke bare 
 
 ---
 
+## 🌐 OpenClaw Library (GitHub Pages)
+
+Nå inneholder repoet en browsebar, OpenClaw-inspirert nettside med meny og undersider:
+
+- `index.html` – forside
+- `library.html` – dashboard (søk/filter over data)
+- `use-cases.html` – praktiske use cases
+- `tools-cli.html` – tools + CLI mønstre
+- `skills.html` – skill stack
+- `playbooks.html` – implementerings-playbooks
+- `sources.html` – signaler/kilder
+- `data/library.json` – JSON-basert bibliotekdatabase
+
 ## 🔗 Lenker
 
 - **GitHub Pages:** https://veryindeedsiryessir.github.io/openclaw-research/
