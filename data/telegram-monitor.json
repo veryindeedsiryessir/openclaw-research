@@ -1,0 +1,24 @@
+{
+  "mode": "passive",
+  "keywords": [
+    "openclaw",
+    "release",
+    "security",
+    "breaking",
+    "workflow",
+    "agent",
+    "memory",
+    "telegram"
+  ],
+  "maxAlertsPerRun": 5,
+  "digestMaxItems": 8,
+  "sources": {
+    "dailyDigestJson": "reports/daily-digest.json",
+    "stateJson": "reports/telegram-monitor-state.json"
+  },
+  "telegram": {
+    "enabled": false,
+    "chatIdEnv": "TELEGRAM_CHAT_ID",
+    "botTokenEnv": "TELEGRAM_BOT_TOKEN"
+  }
+}

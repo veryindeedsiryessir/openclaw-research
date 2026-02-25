@@ -1,0 +1,112 @@
+{
+  "generatedAt": "2026-02-25T19:40:16.128Z",
+  "mode": "passive",
+  "totals": {
+    "digestItemsTotal": 20,
+    "newItems": 20,
+    "keywordMatches": 12,
+    "alertsPlanned": 5
+  },
+  "telegram": {
+    "enabled": false,
+    "canSend": false,
+    "sent": {
+      "alerts": 0,
+      "digest": 0,
+      "errors": []
+    },
+    "env": {
+      "chatIdEnv": "TELEGRAM_CHAT_ID",
+      "botTokenEnv": "TELEGRAM_BOT_TOKEN",
+      "chatIdPresent": false,
+      "botTokenPresent": false
+    }
+  },
+  "alerts": [
+    {
+      "keyword": "openclaw",
+      "source": "OpenClaw Releases",
+      "title": "openclaw 2026.2.24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.24",
+      "publishedAt": "2026-02-25T03:31:17Z"
+    },
+    {
+      "keyword": "openclaw",
+      "source": "OpenClaw Releases",
+      "title": "openclaw 2026.2.24-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.24-beta.1",
+      "publishedAt": "2026-02-25T03:01:17Z"
+    },
+    {
+      "keyword": "openclaw",
+      "source": "OpenClaw Releases",
+      "title": "openclaw 2026.2.23",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.23",
+      "publishedAt": "2026-02-24T05:41:47Z"
+    },
+    {
+      "keyword": "agent",
+      "source": "Simon Willison",
+      "title": "Linear walkthroughs",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
+      "publishedAt": "2026-02-25T01:07:10.000Z"
+    },
+    {
+      "keyword": "agent",
+      "source": "Simon Willison",
+      "title": "First run the tests",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
+      "publishedAt": "2026-02-24T12:30:05.000Z"
+    }
+  ],
+  "digestPreview": [
+    {
+      "source": "OpenClaw Releases",
+      "title": "openclaw 2026.2.24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.24",
+      "publishedAt": "2026-02-25T03:31:17Z"
+    },
+    {
+      "source": "OpenClaw Releases",
+      "title": "openclaw 2026.2.24-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.24-beta.1",
+      "publishedAt": "2026-02-25T03:01:17Z"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Claude Code Remote Control",
+      "url": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
+      "publishedAt": "2026-02-25T17:33:24.000Z"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "I vibe coded my dream macOS presentation app",
+      "url": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
+      "publishedAt": "2026-02-25T16:46:19.000Z"
+    },
+    {
+      "source": "OpenClaw Releases",
+      "title": "openclaw 2026.2.23",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.23",
+      "publishedAt": "2026-02-24T05:41:47Z"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Linear walkthroughs",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
+      "publishedAt": "2026-02-25T01:07:10.000Z"
+    },
+    {
+      "source": "Latent Space",
+      "title": "🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI",
+      "url": "https://www.latent.space/p/cuspai",
+      "publishedAt": "2026-02-25T17:36:18.000Z"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Quoting Kellan Elliott-McCrea",
+      "url": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
+      "publishedAt": "2026-02-25T03:30:32.000Z"
+    }
+  ]
+}

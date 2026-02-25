@@ -186,6 +186,36 @@ This repo now includes a weekly recommendation report that combines backlog scor
 ### Cron example (Monday 08:15)
 - `15 8 * * 1 cd /path/to/openclaw-research && /usr/bin/env node scripts/build-weekly-implementation-report.mjs`
 
+## 📱 Telegram Monitoring Loop (Sprint #3)
+
+Keyword-based monitoring loop with passive mode, alert mode and digest mode.
+
+### Files
+- `data/telegram-monitor.json` – mode, keywords and Telegram env mapping
+- `scripts/run-telegram-monitor.mjs` – evaluates new digest items against monitor rules
+- `reports/telegram-monitor-report.md` – run summary and alert candidates
+- `reports/telegram-monitor-report.json` – structured run output
+- `reports/telegram-monitor-state.json` – state of seen items (dedupe)
+
+### Modes
+- `passive` – compute matches, no sends (safe default)
+- `alerts` / `active` – send keyword-triggered alerts
+- `digest` – send compact digest message
+
+### Run manually
+- `node scripts/run-telegram-monitor.mjs`
+
+### Cron examples
+- Every 30 min (passive/alerts):
+  - `*/30 * * * * cd /path/to/openclaw-research && /usr/bin/env node scripts/run-telegram-monitor.mjs`
+- Daily digest at 08:00 (set `mode=digest` first):
+  - `0 8 * * * cd /path/to/openclaw-research && /usr/bin/env node scripts/run-telegram-monitor.mjs`
+
+### Telegram env
+Set these before enabling sends:
+- `TELEGRAM_BOT_TOKEN`
+- `TELEGRAM_CHAT_ID`
+
 ## 🔗 Lenker
 
 - **GitHub Pages:** https://veryindeedsiryessir.github.io/openclaw-research/
