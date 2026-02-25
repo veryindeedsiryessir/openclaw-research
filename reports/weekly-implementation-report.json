@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-02-25T19:14:43.119Z",
+  "inputs": {
+    "backlogItems": 10,
+    "digestItems": 20,
+    "libraryEntries": 107
+  },
+  "themes": [
+    {
+      "key": "agentic-dev-practices",
+      "label": "Agentic engineering practices",
+      "score": 22
+    },
+    {
+      "key": "release-velocity",
+      "label": "Release velocity & platform changes",
+      "score": 10
+    },
+    {
+      "key": "security-governance",
+      "label": "Security & governance pressure",
+      "score": 2
+    }
+  ],
+  "weeklyFocus": [
+    {
+      "rank": 1,
+      "title": "Daglig OpenClaw nyhetsdigest (GitHub releases + utvalgte kilder)",
+      "buildability": 5,
+      "effect": 4,
+      "operability": 5,
+      "risk": 5,
+      "total": 4.6,
+      "rationale": "Foundation workflow; keep iterating quality and source coverage. Signal environment supports this now."
+    },
+    {
+      "rank": 2,
+      "title": "Ukentlig “hva bør vi implementere”-rapport",
+      "buildability": 5,
+      "effect": 4,
+      "operability": 5,
+      "risk": 5,
+      "total": 4.6,
+      "rationale": "Compounds value by turning raw signals into weekly implementation decisions. Signal environment supports this now."
+    },
+    {
+      "rank": 3,
+      "title": "Telegram monitoring-loop (passiv + alerts på keywords)",
+      "buildability": 4,
+      "effect": 5,
+      "operability": 4,
+      "risk": 4,
+      "total": 4.4,
+      "rationale": "Matches ongoing need for fast signal capture and alerting loops. Signal environment supports this now."
+    },
+    {
+      "rank": 4,
+      "title": "Activity Feed for egne OpenClaw-handlinger",
+      "buildability": 4,
+      "effect": 5,
+      "operability": 4,
+      "risk": 4,
+      "total": 4.4,
+      "rationale": "Improves observability for what the agent actually does each day. Signal environment supports this now."
+    },
+    {
+      "rank": 5,
+      "title": "Kartlegging-loop v2 (normalisering + scoring + diff)",
+      "buildability": 4,
+      "effect": 5,
+      "operability": 4,
+      "risk": 3,
+      "total": 4.3,
+      "rationale": "High total score and strong execution feasibility this sprint. Signal environment supports this now."
+    }
+  ],
+  "suggestedNextActions": [
+    "Finalize weekly report format and send every Monday morning.",
+    "Add Telegram monitoring loop as a direct source for weekly prioritization.",
+    "Track delivered-vs-planned items to improve backlog scoring confidence."
+  ]
+}

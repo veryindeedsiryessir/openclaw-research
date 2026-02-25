@@ -171,6 +171,21 @@ This repo now includes a daily digest generator for high-signal OpenClaw updates
 - `maxItemsTotal`: global cap for the report
 - `priority`: source weight used in ranking
 
+## 📈 Weekly Implementation Report (Sprint #2)
+
+This repo now includes a weekly recommendation report that combines backlog score + fresh market signal.
+
+### Files
+- `scripts/build-weekly-implementation-report.mjs` – builds weekly recommendation pack
+- `reports/weekly-implementation-report.md` – decision-ready weekly summary
+- `reports/weekly-implementation-report.json` – structured report payload
+
+### Run manually
+- `node scripts/build-weekly-implementation-report.mjs`
+
+### Cron example (Monday 08:15)
+- `15 8 * * 1 cd /path/to/openclaw-research && /usr/bin/env node scripts/build-weekly-implementation-report.mjs`
+
 ## 🔗 Lenker
 
 - **GitHub Pages:** https://veryindeedsiryessir.github.io/openclaw-research/
