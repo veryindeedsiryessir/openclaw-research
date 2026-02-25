@@ -1,0 +1,40 @@
+{
+  "generatedBy": "scripts/build-daily-digest.mjs",
+  "lookbackHours": 72,
+  "maxItemsPerSource": 8,
+  "maxItemsTotal": 20,
+  "sources": [
+    {
+      "id": "openclaw-releases",
+      "name": "OpenClaw Releases",
+      "type": "github-releases",
+      "repo": "openclaw/openclaw",
+      "priority": 10,
+      "enabled": true
+    },
+    {
+      "id": "openclaw-docs-blog",
+      "name": "OpenClaw Blog",
+      "type": "rss",
+      "url": "https://openclaw.ai/rss.xml",
+      "priority": 8,
+      "enabled": true
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "type": "rss",
+      "url": "https://simonwillison.net/atom/everything/",
+      "priority": 7,
+      "enabled": true
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "type": "rss",
+      "url": "https://www.latent.space/feed",
+      "priority": 6,
+      "enabled": true
+    }
+  ]
+}

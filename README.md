@@ -149,6 +149,28 @@ Nå inneholder repoet en browsebar, OpenClaw-inspirert nettside med meny og unde
 - Update `lastUpdated` on every content edit
 - Do not remove useful legacy entries unless broken/duplicate
 
+## 📰 Daily OpenClaw Digest (Sprint #1)
+
+This repo now includes a daily digest generator for high-signal OpenClaw updates.
+
+### Files
+- `data/sources.json` – tracked sources and weights
+- `scripts/build-daily-digest.mjs` – collects + ranks updates
+- `reports/daily-digest.md` – human-readable digest
+- `reports/daily-digest.json` – machine-readable output
+
+### Run manually
+- `node scripts/build-daily-digest.mjs`
+
+### Cron example (08:00 daily)
+- `0 8 * * * cd /path/to/openclaw-research && /usr/bin/env node scripts/build-daily-digest.mjs`
+
+### Tune behavior
+- `lookbackHours`: how far back to include items
+- `maxItemsPerSource`: cap per source in digest output
+- `maxItemsTotal`: global cap for the report
+- `priority`: source weight used in ranking
+
 ## 🔗 Lenker
 
 - **GitHub Pages:** https://veryindeedsiryessir.github.io/openclaw-research/
@@ -158,4 +180,4 @@ Nå inneholder repoet en browsebar, OpenClaw-inspirert nettside med meny og unde
 
 ---
 
-*Sist oppdatert: 2026-02-21*
+*Sist oppdatert: 2026-02-25*

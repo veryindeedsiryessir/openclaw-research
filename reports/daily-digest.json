@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-02-25T19:09:30.647Z",
+  "lookbackHours": 72,
+  "cutoff": "2026-02-22T19:09:30.647Z",
+  "sourceCount": 4,
+  "includedItems": 20,
+  "items": [
+    {
+      "sourceId": "openclaw-releases",
+      "sourceName": "OpenClaw Releases",
+      "sourcePriority": 10,
+      "title": "openclaw 2026.2.24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.24",
+      "publishedAt": "2026-02-25T03:31:17Z",
+      "timestamp": 1771990277000,
+      "summary": "### Changes - Auto-reply/Abort shortcuts: expand standalone stop phrases (`stop openclaw`, `stop action`, `stop run`, `stop agent`, `please stop`, and related variants), accept trailing punctuation (for example `STOP OPENCLAW!!!`), add multilingual stop keywords (including ES/FR/"
+    },
+    {
+      "sourceId": "openclaw-releases",
+      "sourceName": "OpenClaw Releases",
+      "sourcePriority": 10,
+      "title": "openclaw 2026.2.24-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.24-beta.1",
+      "publishedAt": "2026-02-25T03:01:17Z",
+      "timestamp": 1771988477000,
+      "summary": "### Changes - Auto-reply/Abort shortcuts: expand standalone stop phrases (`stop openclaw`, `stop action`, `stop run`, `stop agent`, `please stop`, and related variants), accept trailing punctuation (for example `STOP OPENCLAW!!!`), add multilingual stop keywords (including ES/FR/"
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "Claude Code Remote Control",
+      "url": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
+      "publishedAt": "2026-02-25T17:33:24.000Z",
+      "timestamp": 1772040804000,
+      "summary": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://code.claude.com/docs/en/remote-control\"&gt;Claude Code Remote Control&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code "
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "I vibe coded my dream macOS presentation app",
+      "url": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
+      "publishedAt": "2026-02-25T16:46:19.000Z",
+      "timestamp": 1772037979000,
+      "summary": "&lt;p&gt;I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance. I grabbed a slot for a talk I titled \"The State of LLMs, February 2026 edition\""
+    },
+    {
+      "sourceId": "openclaw-releases",
+      "sourceName": "OpenClaw Releases",
+      "sourcePriority": 10,
+      "title": "openclaw 2026.2.23",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.23",
+      "publishedAt": "2026-02-24T05:41:47Z",
+      "timestamp": 1771911707000,
+      "summary": "### Changes - Providers/Kilo Gateway: add first-class `kilocode` provider support (auth, onboarding, implicit provider detection, model defaults, transcript/cache-ttl handling, and docs), with default model `kilocode/anthropic/claude-opus-4.6`. (#20212) Thanks @jrf0110 and @marki"
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "Linear walkthroughs",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
+      "publishedAt": "2026-02-25T01:07:10.000Z",
+      "timestamp": 1771981630000,
+      "summary": "&lt;p&gt;&lt;em&gt;&lt;a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\"&gt;Agentic Engineering Patterns&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;Sometimes it's useful to have a coding agent give you a structured walkthrough of a codebase. &lt;/p&gt;"
+    },
+    {
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "sourcePriority": 6,
+      "title": "🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI",
+      "url": "https://www.latent.space/p/cuspai",
+      "publishedAt": "2026-02-25T17:36:18.000Z",
+      "timestamp": 1772040978000,
+      "summary": "Editor&#8217;s note: CuspAI raised a $100m Series A in September and is rumored to have reached a unicorn valuation. They have all-star advisors from Geoff Hinton to Yann Lecun and team of deep domain experts"
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "Quoting Kellan Elliott-McCrea",
+      "url": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
+      "publishedAt": "2026-02-25T03:30:32.000Z",
+      "timestamp": 1771990232000,
+      "summary": "&lt;blockquote cite=\"https://laughingmeme.org/2026/02/09/code-has-always-been-the-easy-part.html\"&gt;&lt;p&gt;It’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a"
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "First run the tests",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
+      "publishedAt": "2026-02-24T12:30:05.000Z",
+      "timestamp": 1771936205000,
+      "summary": "&lt;p&gt;&lt;em&gt;&lt;a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\"&gt;Agentic Engineering Patterns&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;Automated tests are no longer optional when working with coding agents.&lt;/p&gt; &lt;p&gt;The old excus"
+    },
+    {
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "sourcePriority": 6,
+      "title": "Claude Code for Finance + The Global Memory Shortage: Doug O'Laughlin, SemiAnalysis",
+      "url": "https://www.latent.space/p/valuemule",
+      "publishedAt": "2026-02-24T21:27:25.000Z",
+      "timestamp": 1771968445000,
+      "summary": "A special double pod on the 1 year anniversary of Claude Code: we chat with one of its most vocal fans, who thinks it will write 25-50% of all code on GitHub, plus get a breakdown on the memory crunch"
+    },
+    {
+      "sourceId": "openclaw-releases",
+      "sourceName": "OpenClaw Releases",
+      "sourcePriority": 10,
+      "title": "openclaw 2026.2.22",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.22",
+      "publishedAt": "2026-02-23T04:09:40Z",
+      "timestamp": 1771819780000,
+      "summary": "### Changes - Provider/Mistral: add support for the Mistral provider, including memory embeddings and voice support. (#23845) Thanks @vincentkoc. - Update/Core: add an optional built-in auto-updater for package installs (`update.auto.*`), default-off, with stable rollout delay+ji"
+    },
+    {
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "sourcePriority": 6,
+      "title": "[AINews] The Unreasonable Effectiveness of Closing the Loop",
+      "url": "https://www.latent.space/p/ainews-the-unreasonable-effectiveness",
+      "publishedAt": "2026-02-25T02:18:56.000Z",
+      "timestamp": 1771985936000,
+      "summary": "Through the dozens of midsize launches today (see the rest of the recaps below), one theme that we&#8217;re seeing is something I&#8217;ve come to call &#8220;closing the loop&#8221;:"
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "go-size-analyzer",
+      "url": "https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything",
+      "publishedAt": "2026-02-24T16:10:06.000Z",
+      "timestamp": 1771949406000,
+      "summary": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://github.com/Zxilly/go-size-analyzer\"&gt;go-size-analyzer&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; The Go ecosystem is &lt;em&gt;really&lt;/em&gt; good at tooling. I just learned about this tool for analyzing the size of Go binaries using a plea"
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "Ladybird adopts Rust, with help from AI",
+      "url": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
+      "publishedAt": "2026-02-23T18:52:53.000Z",
+      "timestamp": 1771872773000,
+      "summary": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://ladybird.org/posts/adopting-rust/\"&gt;Ladybird adopts Rust, with help from AI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projec"
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "Writing about Agentic Engineering Patterns",
+      "url": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
+      "publishedAt": "2026-02-23T17:43:02.000Z",
+      "timestamp": 1771868582000,
+      "summary": "&lt;p&gt;I've started a new project to collect and document &lt;strong&gt;&lt;a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\"&gt;Agentic Engineering Patterns&lt;/a&gt;&lt;/strong&gt; - coding practices and patterns to help get the best results out of this "
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "Writing code is cheap now",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
+      "publishedAt": "2026-02-23T16:20:42.000Z",
+      "timestamp": 1771863642000,
+      "summary": "&lt;p&gt;&lt;em&gt;&lt;a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\"&gt;Agentic Engineering Patterns&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The biggest challenge in adopting agentic engineering practices is getting comfortable with the conseque"
+    },
+    {
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "sourcePriority": 6,
+      "title": "⚡️The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
+      "url": "https://www.latent.space/p/swe-bench-dead",
+      "publishedAt": "2026-02-23T20:03:11.000Z",
+      "timestamp": 1771876991000,
+      "summary": "It's time to take the next step up in frontier agent evals."
+    },
+    {
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "sourcePriority": 6,
+      "title": "[AINews] Anthropic accuses DeepSeek, Moonshot, and MiniMax of >16 million \"industrial-scale distillation attacks\"",
+      "url": "https://www.latent.space/p/ainews-anthropic-accuses-deepseek",
+      "publishedAt": "2026-02-24T04:48:01.000Z",
+      "timestamp": 1771908481000,
+      "summary": "the US-China cold war takes a big step up"
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "Red/green TDD",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
+      "publishedAt": "2026-02-23T07:12:28.000Z",
+      "timestamp": 1771830748000,
+      "summary": "&lt;p&gt;&lt;em&gt;&lt;a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\"&gt;Agentic Engineering Patterns&lt;/a&gt; &amp;gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;\"&lt;strong&gt;Use red/green TDD&lt;/strong&gt;\" is a pleasingly succinct way to get better results out "
+    },
+    {
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourcePriority": 7,
+      "title": "Quoting Paul Ford",
+      "url": "https://simonwillison.net/2026/Feb/23/paul-ford/#atom-everything",
+      "publishedAt": "2026-02-23T16:00:32.000Z",
+      "timestamp": 1771862432000,
+      "summary": "&lt;blockquote cite=\"https://ftrain.com/leading-thoughts\"&gt;&lt;p&gt;The paper asked me to explain vibe coding, and I did so, because I think something big is coming there, and I'm deep in, and I worry that normal people are not able to see it and I want them to be prepared. But"
+    }
+  ]
+}
