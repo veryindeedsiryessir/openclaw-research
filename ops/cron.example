@@ -1,0 +1,18 @@
+# OpenClaw Research cron examples
+# Install with: crontab -e
+# (adjust absolute path to your machine)
+
+REPO=/Users/abraham/.openclaw/workspace/openclaw-research
+NODE=/usr/bin/env node
+
+# Daily digest (08:00)
+0 8 * * * cd $REPO && $NODE scripts/build-daily-digest.mjs >> reports/cron.log 2>&1
+
+# Weekly implementation report (Monday 08:15)
+15 8 * * 1 cd $REPO && $NODE scripts/build-weekly-implementation-report.mjs >> reports/cron.log 2>&1
+
+# Telegram monitor loop (every 30 min)
+*/30 * * * * cd $REPO && $NODE scripts/run-telegram-monitor.mjs >> reports/cron.log 2>&1
+
+# Healthcheck (hourly)
+7 * * * * cd $REPO && $NODE scripts/healthcheck.mjs >> reports/cron.log 2>&1

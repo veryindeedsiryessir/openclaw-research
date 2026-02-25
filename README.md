@@ -216,6 +216,18 @@ Set these before enabling sends:
 - `TELEGRAM_BOT_TOKEN`
 - `TELEGRAM_CHAT_ID`
 
+## ⚙️ Ops Autonomy Kit
+
+To make ongoing development more autonomous and reliable:
+
+- `ops/RUNBOOK.md` – failure playbooks + escalation rules
+- `ops/cron.example` – copy/paste cron schedule for all core loops
+- `scripts/healthcheck.mjs` – hourly ops check (auth, git sync, pages run, endpoint)
+- `reports/healthcheck.md` + `reports/healthcheck.json` – latest health status
+
+### Run healthcheck manually
+- `node scripts/healthcheck.mjs`
+
 ## 🔗 Lenker
 
 - **GitHub Pages:** https://veryindeedsiryessir.github.io/openclaw-research/

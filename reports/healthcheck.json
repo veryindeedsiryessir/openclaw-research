@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-02-25T20:16:06.770Z",
+  "healthy": true,
+  "checks": [
+    {
+      "name": "GitHub auth",
+      "ok": true,
+      "detail": "Logged in"
+    },
+    {
+      "name": "Git branch sync",
+      "ok": true,
+      "detail": "## main...origin/main\n M README.md\n?? ops/\n?? scripts/healthcheck.mjs"
+    },
+    {
+      "name": "Latest Pages workflow",
+      "ok": true,
+      "detail": "completed\tsuccess\tpages build and deployment\tpages-build-deployment\tmain\tdynamic\t22414071751\t37s\t2026-02-25T20:12:54Z"
+    },
+    {
+      "name": "Pages endpoint",
+      "ok": true,
+      "detail": "HTTP/2 200 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\nlast-modified: Wed, 25 Feb 2026 20:13:26 GMT\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"699f57e6-120c\"\r\nexpires: Wed, 25 Feb 2026 20:23:34 GMT"
+    }
+  ]
+}
