@@ -99,3 +99,51 @@ Use this log during analysis pilots.
 - **KPI impact observed:** High potential for reliability and consistency
 - **Decision:** Pilot selected patterns only
 - **Guardrails required:** Incremental adoption mapped to existing Mission Control policy tiers
+
+## Entry 8
+- **Skill:** self-improving-agent
+- **Date:** 2026-02-28
+- **Use case tested:** Deep inspection of self-learning/logging architecture
+- **Value signal (1-5):** 4.2
+- **Safety risk (1-5):** 4.5
+- **What worked:** Good structured learnings/error capture model
+- **What failed / concerns:** Can over-expand autonomy if applied wholesale
+- **KPI impact observed:** Potential reduction of repeated operational mistakes
+- **Decision:** Pilot selected components only
+- **Guardrails required:** Human review for policy/process changes
+
+## Entry 9
+- **Skill:** auto-updater
+- **Date:** 2026-02-28
+- **Use case tested:** Daily unattended update strategy review
+- **Value signal (1-5):** 3.6
+- **Safety risk (1-5):** 4.6
+- **What worked:** Clear automation concept for maintenance
+- **What failed / concerns:** High blast radius without canary/rollback
+- **KPI impact observed:** Potentially lower maintenance effort
+- **Decision:** Defer
+- **Guardrails required:** Dry-run mode, pinned versions, rollback + smoke tests
+
+## Entry 10
+- **Skill:** wacli-family (WhatsApp)
+- **Date:** 2026-02-28
+- **Use case tested:** Family-level risk/value assessment (slug ambiguity in catalog)
+- **Value signal (1-5):** 3.8
+- **Safety risk (1-5):** 4.8
+- **What worked:** Strong potential for outbound comms workflow
+- **What failed / concerns:** External messaging mistakes are high-impact
+- **KPI impact observed:** Could improve notification throughput if controlled
+- **Decision:** Defer unless Tier-C workflow is strict
+- **Guardrails required:** Recipient allowlists, templates, human approval, full audit logs
+
+## Entry 11
+- **Skill:** home-assistant-family
+- **Date:** 2026-02-28
+- **Use case tested:** Family-level risk/value assessment (slug ambiguity in catalog)
+- **Value signal (1-5):** 3.2
+- **Safety risk (1-5):** 4.7
+- **What worked:** Potential convenience for environmental automations
+- **What failed / concerns:** Physical/device side-effects; not core to current goals
+- **KPI impact observed:** Low direct impact on R21 mission-critical workflows
+- **Decision:** Defer
+- **Guardrails required:** Isolated scope, non-safety-critical actions only
