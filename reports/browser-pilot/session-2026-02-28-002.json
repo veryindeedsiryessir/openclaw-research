@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-02-28T02:00:24.297218+00:00",
+  "pilot": "agent-browser-wave1-session-002",
+  "tasksTotal": 5,
+  "hits": 0,
+  "results": [
+    {
+      "project": "3PR hytta",
+      "projectUrl": "https://r21.no/work/3pr-hytta",
+      "entreprenor": "RH Kvalitetsbygg AS",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    },
+    {
+      "project": "Atriumshus p\u00e5 Ullerntoppen - Fase 1",
+      "projectUrl": "https://r21.no/work/atriumshus-paring-ullerntoppen-fase-1",
+      "entreprenor": "Entrepren\u00f8r 1",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    },
+    {
+      "project": "Atriumshus p\u00e5 Ullerntoppen - Fase 2",
+      "projectUrl": "https://r21.no/work/atriumshus-paring-ullerntoppen-fase-2",
+      "entreprenor": "Entrepren\u00f8r 1",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    },
+    {
+      "project": "Hus p\u00e5 Ullerntoppen - Fase 3",
+      "projectUrl": "https://r21.no/work/hus-paring-ullerntoppen-fase-3",
+      "entreprenor": "Entrepren\u00f8r 1",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    },
+    {
+      "project": "Hytte Kvitfjell",
+      "projectUrl": "https://r21.no/work/hytte-kvitfjell",
+      "entreprenor": "RH Kvalitetsbygg AS",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    }
+  ],
+  "note": "Read-first external verification pass with enriched query strategy."
+}

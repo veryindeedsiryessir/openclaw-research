@@ -159,3 +159,15 @@ Use this log during analysis pilots.
 - **KPI impact observed:** Throughput process established, but no immediate completion lift
 - **Decision:** Continue pilot with richer sources (PDF/municipal docs/manual seed links)
 - **Guardrails required:** Keep read-first; no auto-write without evidence-grade sources
+
+## Entry 13
+- **Skill:** agent-browser (pilot session 002)
+- **Date:** 2026-02-28
+- **Use case tested:** 5-task enriched-query verification pass (project + entreprenør + site filters)
+- **Value signal (1-5):** 3.6
+- **Safety risk (1-5):** 2.5
+- **What worked:** Enriched query strategy executed cleanly and produced reproducible artifacts
+- **What failed / concerns:** Still 0/5 verified byggherre hits; external sources do not expose clean fields for targets
+- **KPI impact observed:** No direct improvement in done/verified coverage yet
+- **Decision:** Keep pilot, but switch to seeded sources from project docs/internal references
+- **Guardrails required:** Evidence-grade source requirement remains mandatory
