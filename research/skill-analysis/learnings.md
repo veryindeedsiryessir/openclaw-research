@@ -147,3 +147,15 @@ Use this log during analysis pilots.
 - **KPI impact observed:** Low direct impact on R21 mission-critical workflows
 - **Decision:** Defer
 - **Guardrails required:** Isolated scope, non-safety-critical actions only
+
+## Entry 12
+- **Skill:** agent-browser (pilot session)
+- **Date:** 2026-02-28
+- **Use case tested:** 5-task read-first verification pass for missing byggherre fields
+- **Value signal (1-5):** 3.5
+- **Safety risk (1-5):** 2.5
+- **What worked:** Structured run and evidence logging worked; repeatable session artifacts created
+- **What failed / concerns:** 0/5 verified hits from open web in this pass (source scarcity)
+- **KPI impact observed:** Throughput process established, but no immediate completion lift
+- **Decision:** Continue pilot with richer sources (PDF/municipal docs/manual seed links)
+- **Guardrails required:** Keep read-first; no auto-write without evidence-grade sources

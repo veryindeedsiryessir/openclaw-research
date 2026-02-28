@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-02-28T01:57:46.136195Z",
+  "pilot": "agent-browser-wave1-session-001",
+  "tasksTotal": 5,
+  "hits": 0,
+  "results": [
+    {
+      "project": "3PR hytta",
+      "query": "\"3PR hytta\" byggherre",
+      "projectUrl": "https://r21.no/work/3pr-hytta",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    },
+    {
+      "project": "Atriumshus p\u00e5 Ullerntoppen - Fase 1",
+      "query": "\"Atriumshus p\u00e5 Ullerntoppen - Fase 1\" byggherre",
+      "projectUrl": "https://r21.no/work/atriumshus-paring-ullerntoppen-fase-1",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    },
+    {
+      "project": "Atriumshus p\u00e5 Ullerntoppen - Fase 2",
+      "query": "\"Atriumshus p\u00e5 Ullerntoppen - Fase 2\" byggherre",
+      "projectUrl": "https://r21.no/work/atriumshus-paring-ullerntoppen-fase-2",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    },
+    {
+      "project": "Hus p\u00e5 Ullerntoppen - Fase 3",
+      "query": "\"Hus p\u00e5 Ullerntoppen - Fase 3\" byggherre",
+      "projectUrl": "https://r21.no/work/hus-paring-ullerntoppen-fase-3",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    },
+    {
+      "project": "Hytte Kvitfjell",
+      "query": "\"Hytte Kvitfjell\" byggherre",
+      "projectUrl": "https://r21.no/work/hytte-kvitfjell",
+      "checkedLinks": [],
+      "found": [],
+      "status": "no_verified_hit"
+    }
+  ],
+  "note": "Read-first external verification pass. No writes applied automatically."
+}
