@@ -51,3 +51,51 @@ Use this log during analysis pilots.
 - **KPI impact observed:** Major acceleration in feature delivery cadence
 - **Decision:** Adopt with guardrails
 - **Guardrails required:** PTY usage, explicit workdir, incremental commits, review gates
+
+## Entry 4
+- **Skill:** gog
+- **Date:** 2026-02-28
+- **Use case tested:** Capability inspection for Gmail/Calendar/Drive/Sheets automation
+- **Value signal (1-5):** 4.0
+- **Safety risk (1-5):** 4.0
+- **What worked:** Broad Google Workspace coverage and scriptability
+- **What failed / concerns:** Large write-capable access scope to external systems
+- **KPI impact observed:** Potentially high for reporting and scheduling loops
+- **Decision:** Pilot
+- **Guardrails required:** Tier-C approvals on outbound mutations; account scope minimization
+
+## Entry 5
+- **Skill:** remind
+- **Date:** 2026-02-28
+- **Use case tested:** Reminder semantics and adaptive timing model review
+- **Value signal (1-5):** 4.2
+- **Safety risk (1-5):** 2.0
+- **What worked:** Clear reminder boundaries and practical timing logic
+- **What failed / concerns:** Risk of noisy reminders if untuned
+- **KPI impact observed:** Better follow-through on recurring commitments
+- **Decision:** Adopt now
+- **Guardrails required:** Conservative defaults; explicit skip-list
+
+## Entry 6
+- **Skill:** caldav-calendar
+- **Date:** 2026-02-28
+- **Use case tested:** CLI workflow and sync architecture review
+- **Value signal (1-5):** 3.2
+- **Safety risk (1-5):** 3.0
+- **What worked:** Mature sync/query model for CalDAV ecosystems
+- **What failed / concerns:** Linux-oriented setup and higher config overhead for current stack
+- **KPI impact observed:** Moderate, conditional on adopting CalDAV-first flow
+- **Decision:** Defer
+- **Guardrails required:** Read-only pilot before write operations if activated
+
+## Entry 7
+- **Skill:** proactive-agent
+- **Date:** 2026-02-28
+- **Use case tested:** Architecture-level review of autonomy/memory/governance patterns
+- **Value signal (1-5):** 4.5
+- **Safety risk (1-5):** 4.2
+- **What worked:** Strong operational patterns for continuity and proactive loops
+- **What failed / concerns:** High complexity and autonomy surface if adopted wholesale
+- **KPI impact observed:** High potential for reliability and consistency
+- **Decision:** Pilot selected patterns only
+- **Guardrails required:** Incremental adoption mapped to existing Mission Control policy tiers
